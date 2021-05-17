@@ -94,12 +94,13 @@ def main():
     soup = HtmlFetch(ProductName())
     
     books = list(ZlibBookDetailsExtracter(soup))
+    books[0].PrintDetails()
     # for book in books:
     #     book.PrintDetails()
     
-    url = books[0].geturl()
-    ZlibDownloadExtractor(url)
-    download('https://1lib.in/dl/3485511/701625')
+    # url = books[0].geturl()
+    # ZlibDownloadExtractor(url)
+    # download('https://1lib.in/dl/3485511/701625')
 
 if __name__=="__main__":
     main()
