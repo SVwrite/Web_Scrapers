@@ -1,0 +1,2669 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            navigator.sayswho = (function(){
+                var ua= navigator.userAgent, tem, 
+                M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+                if(/trident/i.test(M[1])){
+                    tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+                    return 'IE '+(tem[1] || '');
+                }
+                if(M[1]=== 'Chrome'){
+                    tem= ua.match(/\b(OPR|Edge)\/(\d+)/);
+                    if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+                }
+                M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+                if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+                return M.join(' ');
+            })();
+
+            if (false) {
+                window.onerror = function(errorMsg, url, lineNumber) {
+                    const request = new XMLHttpRequest()
+                    request.onreadystatechange = function() {}
+                    request.open('GET', '/papi/user/logJsError/?file=' + encodeURIComponent(url) + '&message=' + encodeURIComponent(errorMsg) + '&line=' + lineNumber + '&client=' + encodeURIComponent(navigator.sayswho))
+                    request.send()
+                }
+            }
+        </script>
+
+        <title>12 Rules for Life, An Antidote to Chaos | Jordan B. Peterson | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="12 Rules for Life, An Antidote to Chaos | Jordan B. Peterson | download">
+			<meta name="description" content="12 Rules for Life, An Antidote to Chaos | Jordan B. Peterson | download | Z-Library. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+                        <meta name="alfacoins-site-verification" content="5ef0e7b2483f15ef0e7b2484275ef0e7b24845d_ALFAcoins">
+	
+<!-- CSS SET -->
+<!-- JS SET --> 
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="Search for books in the library Z-Library" />
+
+                    <link rel="stylesheet" type="text/css" href="/resources/build/global.css?0.260" />
+            <script type="text/javascript" src="/resources/build/global.js?0.260"></script>
+        
+        <link rel="stylesheet" type="text/css" href="/resources/ext/bootstrap-tagsinput/bootstrap-tagsinput.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/lightbox/jquery.lightbox-0.5.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/book-rating.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/select2/select2.min.css" />
+        <script type="text/javascript" src="/resources/ext/typeahead.js"></script>
+<script type="text/javascript" src="/resources/ext/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+<script type="text/javascript" src="/resources/ext/lightbox/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript" src="/resources/js/book-rating.js"></script>
+<script type="text/javascript" src="/resources/ext/select2/select2.min.js"></script>
+
+        
+        <script>
+            
+            const Config = {"domainHost":"1lib.in","BRegion":"asia"};
+            const CurrentUser = new User(null);
+            const CurrentClientIP = "49.36.219.86";
+            const proxiesToCheck = []; //for google verification
+
+            i18next
+                .use(i18nextHttpBackend)
+                .init({
+                    lng: 'en',
+                    fallbackLng: 'en',
+                    backend: {
+                        loadPath: '/resources/build/locales/{{lng}}'
+                    }
+                })
+
+            
+            $(document).on('change', '.form-email-field', function() {
+                const $input = $(this)
+                const email = $input.val()
+
+                $input.parents('.form-group').find('.form-error').remove()
+                $.each(['@icloud.com', '@mac.com', '@me.com'], function(key, domain) {
+                    if (email.indexOf(domain) !== -1) {
+                        $input.tooltip({
+                            placement: 'top',
+                            trigger: 'manual',
+                            title: $input.data('message'),
+                        }).tooltip('show')
+                    }
+                })
+            })
+
+            $(document).on('focus', '.form-email-field', function() {
+                $(this).tooltip('hide')
+            })
+        </script>
+    </head>
+
+    <body style="margin:0px;padding:0px;" class="books/details">
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <style>
+    div#colorBoxes
+    {
+        text-transform: capitalize;
+    }
+
+    div#colorBoxes ul li.active:nth-child(1)
+    {
+        border: 1px solid #378096;
+        box-shadow: 0 0 6px #7DBCCF;
+        border-top: 0px;
+    }
+
+    div#colorBoxes ul li.active:nth-child(2)
+    {
+        border: 1px solid #6e9b41;
+        box-shadow: 0 0 6px #a4e861;
+        border-top: 0px;
+    }
+</style>
+
+
+<div id="colorBoxes" class="darkShadow">
+    <ul>
+        <li style="background: #49afd0;" class="">
+            <a href="/" class="header-main-nav-link" data-mode="books">
+                <span class="hidden-xs">7,276,715 books</span>
+                <span class="visible-xs">books</span>
+            </a>
+        </li>
+
+        <li style="background: #8ecd51;">
+            <a href="https://booksc.org/" class="header-main-nav-link" data-mode="articles">
+                <span class="hidden-xs">80,759,561 articles</span>
+                <span class="visible-xs">articles</span>
+            </a>
+        </li>
+
+        <li style="background: #90a5a8;" class="hidden-xs"><a href="https://z-lib.org">ZLibrary Home</a></li>
+        <li style="background: #90a5a8;" class="visible-xs"><a href="https://z-lib.org">Home</a></li>
+    </ul>
+</div>
+
+        <div role="navigation" class="navbar-default navbar-right" style="background-color: transparent;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" onclick="">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="clear: both;">
+                <ul class="nav navbar-nav navbar-right">
+                                            <li class="dropdown">
+                            <a href="#" id="loginDDLink" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="loginDDLink">
+                                <li><a id="dropdownMenuLoginBtn" href="https://singlelogin.me?from=1lib.in">Login</a></li>
+                                <li><a id="dropdownMenuRegistrationBtn" href="https://singlelogin.me/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    
+                    <li>
+                    <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+
+                    
+                    <!-- Auth user menu dropdown -->
+                    
+                    <!-- Search menu dropdown -->
+                    <li class="dropdown"  id="quickSearchMenuDD">
+                        <a href="#" id="quickSearchMenuDD2" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span style="font-size: 120%;" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </a>
+                        <ul class="dropdown-menu" style="padding: 0; border-top-left-radius: 4px;box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); border: 1px solid rgba(0, 0, 0, .1);">
+                            <li>
+                                <form method="get" action="/s/" style="padding:20px;" name="quickSearch">
+                                    <input id="quickSearchInput" class="form-control" type="text" name="q" placeholder="Search for title, author, ISBN, publisher, md5.." style="border-radius: 4px; border: 1px solid #ddd; width:400px; padding: 6px 10px;height:40px;">
+                                    <button type="submit" style="display: none;"></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <script>
+                        $("#quickSearchMenuDD").on('shown.bs.dropdown', function(e){
+                            if(window.outerWidth > 768){
+                                $('#quickSearchInput').focus();
+                            }
+                        });
+                    </script>
+
+                    <!-- Admin menu dropdown -->
+                    <li class="dropdown">
+                        <a href="#" id="main-menu-dropdown" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                            <span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                                                    </a>
+                        <ul class="dropdown-menu">
+                                                                                    <li class="dropdown-header">Books</li>
+                                                                                        <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/request.php">Book requests</a>
+                                </li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                                                                                <li><a href="/recently.php">Recently Added</a></li>
+                                                        <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Z-Library Project</li>
+                            <li><a href="/top-zlibrarians.php">Top Z-Librarians</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+$("#bs-example-navbar-collapse-1").on('shown.bs.collapse', function(e){
+    $('#main-menu-dropdown').dropdown('toggle');
+    $('#main-menu-dropdown').attr('data-toggle', ''); // make it static
+    
+
+    $("#quickSearchMenuDD2").dropdown('toggle');
+    $('#quickSearchMenuDD2').attr('data-toggle', ''); // make it static
+    //$('#main-menu-dropdown').attr('data-toggle', ''); // make it static
+
+    $("#profileMenu").dropdown('toggle');
+    $('#profileMenu').attr('data-toggle', ''); // make it static
+});
+
+const subdomainPrefix = '';
+const booksDomains = ["1lib.in","2lib.org","b-ok.asia","b-ok.as","b-ok.global","1lib.org","3lib.net","4lib.org","1lib.net","1lib.limited"];
+const articlesDomains = ["booksc.org","art1lib.org","art1lib.com","booksc.me"];
+
+const domainCheckSuccess = (domain, mode) => {
+    $('.header-main-nav-link[data-mode="' + mode + '"]').attr('href', '//' + subdomainPrefix + domain)
+}
+
+const domainCheckError = (domain, mode) => {}
+
+DomainsChecker(booksDomains, domainCheckSuccess, domainCheckError, 'books')
+DomainsChecker(articlesDomains, domainCheckSuccess, domainCheckError, 'articles')
+</script>                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="g-page-content">
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        12 Rules for Life, An Antidote to Chaos</div>
+
+<div class="cBox1">Something went wrong. Please try again</div>
+<div itemscope itemtype="http://schema.org/Book">
+    <div class="row cardBooks" style="overflow: hidden;">
+        <div class="col-sm-3 details-book-cover-container">
+            <a href="https://covers.zlibcdn2.com/covers/books/1b/d3/1f/1bd31f599870ad4c7e6b833d68779bf3.jpg" class="lightbox details-book-cover checkBookDownloaded" data-book_id="3485511" data-isbn="9780345816023" itemprop="image">
+                <img src="https://covers.zlibcdn2.com/covers299/books/1b/d3/1f/1bd31f599870ad4c7e6b833d68779bf3.jpg" alt="Book cover 12 Rules for Life, An Antidote to Chaos" />
+            </a>
+                    </div>
+
+        <div class="col-sm-9">
+            <h1 itemprop="name" style="color: #000; line-height: 140%;" class="moderatorPanelToggler">
+                12 Rules for Life, An Antidote to Chaos            </h1>
+
+            <i><a  itemprop="author" class="color1" title="Find all the author's books" href="/g/Jordan B. Peterson">Jordan B. Peterson</a></i>
+
+            <div class="book-rating-detail">
+                <div class="book-rating ">
+                    <span class="book-rating-interest-score ">
+                        5.0                    </span> /
+                    <span class="book-rating-quality-score ">
+                        5.0                    </span>
+                </div>
+            </div>
+
+            <div class="book-choice-rating" data-visible="0" data-init="0">
+                <div class="overlay-post-score"><div id="bookChoiceRatingtFloatingSpinner"></div></div>
+                <div class="overlay"><div id="bookChoiceRatingSpinner"></div></div>
+                <div class="book-choice-interest-title">How much do you like this book?</div>
+                <div class="book-choice-interest-stars stars-list cursor-pointer" data-disabled="0" data-id="3485511" data-type="interest">
+                    <i class="book-rating-star"></i>
+                    <i class="book-rating-star"></i>
+                    <i class="book-rating-star"></i>
+                    <i class="book-rating-star"></i>
+                    <i class="book-rating-star"></i>
+                </div>
+
+                <div class="book-choice-quality-stub">
+                    <div class="book-choice-quality-title">What’s the quality of the file?</div>
+                    <div class="book-choice-quality-dmsg">Download the book for quality assessment</div>
+                </div>
+
+                <div class="book-choice-quality-title">
+                    <div>What’s the quality of the downloaded files?</div>
+                </div>
+                <div class="book-quality-rating-template">
+                    <div class="book-format-quality-rating">
+                        <div class="format-info">
+                            <span class="download-date"></span>
+                            <span class="extension"></span>
+                            <span class="size"></span>
+                        </div>
+                        <div class="book-choice-quality-stars stars-list cursor-pointer" data-disabled="0" data-id="" data-type="quality">
+                            <i class="book-rating-star"></i>
+                            <i class="book-rating-star"></i>
+                            <i class="book-rating-star"></i>
+                            <i class="book-rating-star"></i>
+                            <i class="book-rating-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody">
+                    <b>What does everyone in the modern world need to know? Renowned psychologist Jordan B. Peterson's answer to this most difficult of questions uniquely combines the hard-won truths of ancient tradition with the stunning revelations of cutting-edge scientific research.</b><br><br><span>Humorous, surprising and informative, Dr. Peterson tells us why skateboarding boys and girls must be left alone, what terrible fate awaits those who criticize too easily, and why you should always pet a cat when you meet one on the street.</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp; What does the nervous system of the lowly lobster have to tell us about standing up straight (with our shoulders back) and about success in life? Why did ancient Egyptians worship the capacity to pay careful attention as the highest of gods? What dreadful paths do people tread when they become resentful, arrogant and vengeful? Dr. Peterson journeys broadly, discussing discipline, freedom, adventure and responsibility, distilling the world's wisdom into 12 practical and profound rules for life.&nbsp;</span><i>12 Rules for Life</i><span>&nbsp;shatters the modern commonplaces of science, faith and human nature, while transforming and ennobling the mind and spirit of its readers.</span>                </div>
+            
+            <div style="overflow: hidden; zoom: 1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <div class="property_label">Year:</div>
+                    <div class="property_value">2018</div>
+                </div>
+                <div class="bookProperty property_publisher">
+                    <div class="property_label">Publisher:</div>
+                    <div class="property_value">Random House Canada</div>
+                </div>
+                <div class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+                    <div class="property_value">english</div>
+                </div>
+                <div class="bookProperty property_pages">
+                    <div class="property_label">Pages:</div>
+                    <div class="property_value"><span title="Pages paperback">409</span></div>
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <div class="property_label">ISBN 10:</div>
+                    <div class="property_value">0345816021</div>
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <div class="property_label">ISBN 13:</div>
+                    <div class="property_value">9780345816023</div>
+                </div>
+                <div class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+                    <div class="property_value">PDF, 4.31 MB</div>
+                </div></div>            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 30px; margin-bottom: 15px;">
+        <div class="details-buttons-container pull-left">
+            <div class="book-details-button">
+                
+                <div class="btn-group">
+                
+            <a class="btn btn-primary dlButton addDownloadedBook" href="/dl/3485511/be3820" target="" data-book_id="3485511" data-isbn="9780345816023" rel="nofollow">
+                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                Download (pdf, 4.31 MB)
+            </a>
+        
+                    <button id="btnCheckOtherFormats"
+                        type="button"
+                        data-toggle="dropdown"
+                        class="btn btn-primary dropdown-toggle btnCheckGoogleDriveButton"
+                        data-check-formats="0"
+                        data-convertation-available="1"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        
+                <li><a href="/dl/3485511/be3820?openInBrowser" target="_blank">Open in Browser</a></li>
+            
+                        <li role="separator" class="divider"></li>
+                        <li id="bookOtherFormatsContainer">
+                            <span class="dropdown-menu-muted" style="padding: 5px 19px 0; white-space: nowrap;">
+                                Checking other formats...
+                                <span id="bookOtherFormatsSpinnerContainer"></span>
+                            </span>
+                        </li>
+                        
+                <li role="separator" class="divider"></li>
+                <li><a href="javascript:void(0);" class="converterLink" data-book-id="3485511" data-convert-to="epub">Convert to EPUB</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="3485511" data-convert-to="fb2">Convert to FB2</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="3485511" data-convert-to="mobi">Convert to MOBI</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="3485511" data-convert-to="txt">Convert to TXT</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="3485511" data-convert-to="rtf">Convert to RTF</a></li>
+                <li role="separator" class="divider"></li>
+                <li><span class="dropdown-menu-muted">Converted file can differ from the original. If possible, download the file in its original format.</span></li>
+            
+                        
+                        
+                    </ul>
+                </div>            </div>
+
+                        <div class="book-details-button"><a class="btn btn-default" href="ireader/3485511" target="_blank" rel="nofollow">Preview</a></div>
+                        <div class="book-details-button">
+                <div class="btn-group" id="sendToEmailButtonBox">
+                    <button type="button" class="btn btn-default dropdown-toggle button-send-book" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Send-to-Kindle or Email <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://singlelogin.me?from=1lib.in" target="blank">Please login to your account first</a></li>                        <li role="separator" class="divider"></li>
+                        <li>
+                            <div class="dropdown-menu-muted">
+                                Need help? Please read our short guide <a href="/info/howtokindle.php">how to send a book to Kindle</a>                            <div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="book-details-button">
+                            <button type="button"
+                        class="btn btn-default"
+                        data-placement="top"
+                        onclick="new User().showAuthPopup('login', 'After authorization, you will be able to save books using the «Save for later» option')"
+                        >Save for later</button>
+                        </div>
+
+            
+                </div>
+        <div class="pull-right">
+                </div>
+        <div style="clear: both;"></div>
+    </div>
+
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">
+        The file will be sent to your email address. It may take up to 1-5 minutes before you receive it.    </div>
+
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">
+        The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.        <br><br>
+
+        <b>Please note</b>: you need to verify every book you want to send to your Kindle. Check your mailbox for the verification email from Amazon Kindle.    </div>
+
+    <div class="cBox1" id="sendToGoogleDriveMessage" style="display:none; position: relative;"></div>
+
+    
+    <div id="converterCurrentStatusesBoxContainer" class="cBox1" style="display:none; position: relative; padding-left: 28px;">
+        <div id="converterCurrentStatusesBox"></div>
+    </div>
+
+            <div id="converterStatusBox" class="cBox1" style="display:none"></div>
+    </div>
+
+
+<script type="text/javascript">
+            const availableTags = [];
+            const CurrentBook = new Book({"id":"3485511","title":"12 Rules for Life, An Antidote to Chaos","termsHash":"8297f8c6cacea48231d3a1d97cbc1a13"})
+            const CurrentBookRating = new BookRating(CurrentUser)
+            const tags = new TagsInput($('#inputTags'), CurrentUser, CurrentBook.id, availableTags)
+
+            
+            $(function () {
+
+                $('#btnCheckOtherFormats').click(function() {
+                    if (CurrentBook.otherFormatsLoaded) {
+                        return
+                    }
+
+                    CurrentBook.checkOtherFormats()
+                    CurrentBook.otherFormatsLoaded = true
+                })
+
+                if ($('#btnCheckOtherFormats').data('check-formats') == 1) {
+                    const spinner = new ZLibrarySpinner('btnCheckOtherFormats').length(3).radius(2).width(2).start()
+                    CurrentBook.checkOtherFormats().then(() => spinner.stop())
+                    CurrentBook.otherFormatsLoaded = true
+                }
+
+                $('a.lightbox').lightBox({
+                    containerResizeSpeed: 1
+                });
+
+                // read more
+                var height = 300;
+                if ($('.termsCloud').height() > 0)
+                {
+                    height = height - $('.termsCloud').height();
+                }
+
+                if (height < 225) {
+                    height = 225; // min height
+                }
+
+                // prevent bad line-brake
+                height = Math.floor(height / parseFloat($('#bookDescriptionBox').css('line-height'))) * parseFloat($('#bookDescriptionBox').css('line-height')) + 10; //10 - padding-bottom of box
+
+                if ($('#bookDescriptionBox').height() > height)
+                {
+                    $('#bookDescriptionBox').css('overflow', 'hidden');
+                    $('#bookDescriptionBox').css('height', height);
+                    $('<div style="text-align:center; cursor:pointer;font-size: 12px; height:25px;" class="moreBtn"><div style="display:inline-block;border-top: 1px dashed #333; width:75%; margin-top: 15px;"><span style="display:inline-block;position:relative;top:-13px;padding:0 30px; background: #F6F6F6;">click to read more</span></div></div>').insertAfter("#bookDescriptionBox");
+                }
+
+                $('.moreBtn, #bookDescriptionBox').click(function () {
+                    $('#bookDescriptionBox').css('height', 'auto');
+                    $('#bookDescriptionBox').css('overflow', 'auto');
+                    $('.moreBtn').remove();
+                });
+
+                $('#btnSaveBook').click(function () {
+                    const success = function (response) {
+                        $('#btnSaveBook').addClass('hidden')
+                        $('#btnUnsaveBook').removeClass('hidden')
+                                                ZLibraryNotify({url: '/users/saved_books.php'})
+                            .info('This book was saved in your profile. Click here to see all saved books')
+                    }
+
+                    CurrentUser.saveReadLater(CurrentBook.id, success)
+                })
+
+                $('#btnUnsaveBook').click(function () {
+                    const success = function (response) {
+                        $('#btnSaveBook').removeClass('hidden')
+                        $('#btnUnsaveBook').addClass('hidden')
+                        tags.clear()
+                    }
+
+                    CurrentUser.deleteReadLater(CurrentBook.id, success)
+                });
+
+                // book rating
+                CurrentBookRating.initChoiceContainerEvents();
+                CurrentBookRating.checkExistsScoreForBook(CurrentBook.id, CurrentBook.data.termsHash, function (hasScore) {
+                    if (hasScore) {
+                        $('.book-rating-detail .book-rating').addClass('book-appreciated')
+                    }
+                })
+                $(document).on('click', '.book-rating-detail .book-rating.cursor-pointer', function () {
+                    CurrentBookRating.loadUserScores(CurrentBook.id, CurrentBook.data.termsHash);
+                });
+
+                $(document).on('click', '.book-choice-rating .stars-list', function(e) {
+                    if (!$(e.target).hasClass('book-rating-star') || $(this).data('disabled')) {
+                        return
+                    }
+
+                    const $that = $(this)
+                    const $bookRatingEl = $('.book-rating-detail .book-rating')
+                    const $ratingEl = $('.book-choice-rating')
+                    const $ratingOverlayEl = $ratingEl.find('.overlay-post-score')
+                    const $spinnerEl = $('#bookChoiceRatingtFloatingSpinner')
+
+                    const data = {
+                        'bookId': $that.data('id'),
+                        'type': $that.data('type'),
+                        'score': $that.find('.active-choice').length
+                    }
+
+                    if ($that.data('score') == data.score) {
+                        return
+                    }
+
+                    $spinnerEl.css({'top': '-10px'})
+                    $that.after($spinnerEl)
+
+                    $ratingOverlayEl.show()
+                    $that.data('disabled', 1)
+
+                    $that.fadeTo(100, 0, function () {
+                        CurrentBookRating.postScore(data, $spinnerEl, (result) => {
+                            $ratingOverlayEl.hide()
+                            $that.fadeTo(300, 1)
+                            $that.data('disabled', 0)
+
+                            if (!result.success) {
+                                return
+                            }
+
+                            $that.data('score', data.score)
+                            $that.find('.active, .active-none').removeClass('active active-none')
+                            $that.find('.active-choice').addClass('active')
+
+                            if ($that.data('id') != CurrentBook.id) {
+                                return
+                            }
+
+                            if (result.avg.interest > 0) {
+                                $bookRatingEl.addClass('book-appreciated')
+                                $('.book-rating-interest-score')
+                                    .removeClass('none')
+                                    .text(parseFloat(result.avg.interest).toFixed(1))
+                            }
+                            if (result.avg.quality > 0) {
+                                $bookRatingEl.addClass('book-appreciated')
+                                $('.book-rating-quality-score')
+                                    .removeClass('none')
+                                    .text(parseFloat(result.avg.quality).toFixed(1))
+                            }
+                        })
+                    })
+                })
+
+                // comments info
+                $('.book-rating-detail').append($('.book-comments-info'));
+                $(document).on('click', '.book-comments-info', function() {
+                    let jscommentsTextarea = $("#jscommentsTextarea");
+                    $([document.documentElement, document.body]).animate({
+                        scrollTop: jscommentsTextarea.offset().top
+                    }, 500, function () { jscommentsTextarea.focus(); });
+                });
+            });
+
+            // converter links
+            $('.converterLink').click(function (e) {
+                $('#converterCurrentStatusesBoxContainer').show();
+                $('#converterCurrentStatusesBox').html('Conversion is in progress. The link to download will appear here.<br/>');
+
+                $('#converterCurrentStatusesBoxContainer').css('padding-left', '28px');
+                const spinner = new ZLibrarySpinner('converterCurrentStatusesBoxContainer', 'button')
+                spinner.start()
+
+                $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+                    convertationStatusesAutoupdaterObserver(spinner);
+                }).fail(function (a, b) {
+                    $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+                    $('#converterCurrentStatusesBoxContainer').css('padding-left', '10px');
+                    spinner.stop()
+                });
+            });
+
+            $('.sendToEmailButton').click(function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('book_id'), 'mode': $(this).data('mode')}).done(function (e) {
+                    if (e.response.status) {
+                        //alert('Sent to ' + e.response.email);
+                    }
+                }).fail(function (a, b) {
+                    $('#sentToEmailInfo').html(b.errors.message());
+                    $('#sentToEmailInfoKindle').html(b.errors.message());
+                });
+
+                if ($(this).data('kindle'))
+                {
+                    $('#sentToEmailInfoKindle').show('fast');
+                } else {
+                    $('#sentToEmailInfo').show('fast');
+                }
+                $('#sendToEmailButtonBox').hide('fast');
+            });
+
+            $(document).on("click", ".sendToEmailAfterConversion", function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('book_id'), 'mode': 'kindle', 'convertedTo': $(this).data('format')})
+                        .done(function (e) {
+                        })
+                        .fail(function (a, b) {
+                            $('#sentToEmailInfo').html(b.errors.message());
+                            $('#sentToEmailInfoKindle').html(b.errors.message());
+                            $('#sendToGoogleDriveMessage').html(b.errors.message());
+                        });
+
+                $('#sentToEmailInfoKindle').show('fast');
+                $(this).replaceWith('[sent to kindle]');
+            });
+
+            //$('[data-toggle="tooltip"]').tooltip({'html': true});
+            $(window).on("load", function () {
+                $('[data-toggle="tooltip"]').tooltip({'html': true});
+                $('[data-autoopen="true"]').tooltip('show');
+                $('.btn-savebook-disabled').tooltip({
+                    'html': true,
+                    'trigger': 'manual',
+                });
+
+                $('.btn-savebook-disabled').mouseover(function () {
+                    $(this).tooltip('show')
+                });
+
+                $('.btn-savebook-disabled').click(function () {
+                    $(this).tooltip('hide')
+                });
+            });
+
+            var convertationStatusesAutoupdaterRuned = false;
+            function convertationStatusesAutoupdaterObserver(spinner)
+            {
+                if (convertationStatusesAutoupdaterRuned)
+                {
+                    return;
+                } else {
+                    convertationStatusesAutoupdaterRuned = true;
+                    convertationStatusesAutoupdater(spinner);
+                }
+            }
+
+            function convertationStatusesAutoupdater(spinner)
+            {
+                rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + CurrentBook.id;
+                $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+                $.ajax({
+                    url: rpcUrl,
+                    datatype: 'html'
+                }).done(function (response) {
+                    $('#converterCurrentStatusesBox').html(response);
+                    if (response.search('progress') === -1)
+                    {
+                        if (spinner) {
+                            spinner.stop()
+                            $('#converterCurrentStatusesBoxContainer').css('padding-left', '10px');
+                        }
+                        convertationStatusesAutoupdaterRuned = false;
+                        return;
+                    }
+                    setTimeout(() => convertationStatusesAutoupdater(spinner), 15000);
+                }).error(function () {
+                    setTimeout(() => convertationStatusesAutoupdater(spinner), 15000);
+                });
+            }
+
+            if ($('#converterCurrentStatusesBox').html().length)
+            {
+                $('#converterCurrentStatusesBoxContainer').css('padding-left', '28px');
+                const spinner = new ZLibrarySpinner('converterCurrentStatusesBoxContainer', 'button')
+                spinner.start()
+
+                convertationStatusesAutoupdaterObserver(spinner);
+                $('#converterCurrentStatusesBoxContainer').show();
+            }
+
+            function iOSversion()
+            {
+                if (/iP(hone|od|ad)/.test(navigator.userAgent)) {
+                    const v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/)
+                    return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)]
+                }
+
+                return [];
+            }
+
+            /*
+            if (iOSversion()[0] >= 13 && navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)) {
+                // preload hint image
+                setTimeout(function() {
+                    new Image().src = "/img/safary-download-hint.png";
+                }, 2000);
+
+                $('.dlButton').click(function() {
+                    currentDomain = location.hostname.split('.').reverse()[1] + '.' + location.hostname.split('.').reverse()[0]
+
+                    document.cookie = "ios_download_tooltip=1; expires=Tue, 19 Jan 2038 03:14:07 GMT; domain=." + currentDomain + "; path=/"
+                    const iosNotify = $.notify('message', {
+                        template: '<div data-notify="container" class="col-xs-12 col-sm-3 alert" style="background: #fff; border: 1px solid #999;">' +
+                            '<span data-notify="message">' +
+                                '<img src="/img/safary-download-hint.png" style="width: 100%; margin-bottom: 8px;">' +
+                                'Hint for Safari iOS 13 users: all your downloads are hidden under the arrow icon to the right of the browser address bar.<br>' +
+                                '<div class="text-right"><a href="javascript://" id="btnIosNotifyClose" style="color: #337ab7;">Hide</a></div>' +
+                            '</span>' +
+                        '</div>',
+                        offset: 0,
+                        delay: 4000
+                    })
+
+                    $('#btnIosNotifyClose').click(function() {
+                        document.cookie = 'ios_download_tooltip=10; expires=Tue, 19 Jan 2038 03:14:07 GMT; domain=.' + currentDomain + '; path=/'
+                        iosNotify.close()
+                    });
+                })
+            }
+            */
+
+            $(document).on('click', '.addDownloadedBook', function() {
+                CurrentUser.addDownloadedBook($(this).data('book_id'))
+            })
+
+            $(document).on('click', '.btnMarkAsReaded', function() {
+                const bookId = $(this).data('book_id');
+                new ZLibraryResponse(new Request('/papi/user/count-download/' + bookId))
+                    .fetch()
+
+                CurrentUser.addDownloadedBook(bookId)
+            })
+
+            // Send to Google Drive button \\
+            function googleDriveTokenExists() {
+                let cook = getCookie('google-oauth2-credentials')
+                let auth = cook ? JSON.parse(cook) : {}
+                let timestamp = new Date().getTime() / 1000
+                return auth.access_token && auth.created + auth.expires_in > timestamp
+            }
+
+            function sendToGoogleDrive(bookId) {
+                $('#sendToGoogleDriveMessage').show('fast').html('<div style="padding-left: 22px;">Book sending is in progress</div>')
+
+                const request = new Request('/papi/book/' + bookId + '/send-to/google-drive')
+                const spinner = new ZLibrarySpinner('sendToGoogleDriveMessage', 'button').start()
+
+                new ZLibraryResponse(request)
+                    .spinner(spinner)
+                    .success(json => {
+                        $('#sendToGoogleDriveMessage').html('The file was sent to your Google Drive account. You will find it in the "<b>ZLibrary</b>" folder')
+                        CurrentUser.addDownloadedBook(bookId)
+                    })
+                    .error(json => {
+                        setCookie('google-oauth2-credentials', '', '', '/', '.1lib.in')
+                        $('#sendToGoogleDriveMessage').hide('fast')
+                        try {
+                            json = JSON.parse(json.error);
+                            if (json.error.code == 401) {
+                                ZLibraryNotify().error('Something went wrong with your Google Drive authorization. Please try again')
+                                return
+                            }
+                            ZLibraryNotify({delay: 8000}).error(json.error.message)
+                        } catch(err) {
+                            ZLibraryNotify({delay: 8000}).error(json.error ? json.error : err)
+                        }
+                    })
+                    .fetch()
+            }
+
+            function googleDriveStatusAutoupdater(bookId) {
+                if (googleDriveTokenExists()) {
+                    sendToGoogleDrive(bookId)
+                    return
+                }
+
+                setTimeout(() => googleDriveStatusAutoupdater(bookId), 2000)
+            }
+
+            $('.sendToGoogleDriveButton').click(function () {
+                const bookId = $(this).data('book_id')
+
+                if (!googleDriveTokenExists()) {
+                    new ZLibraryResponse(new Request('/papi/user/google/get-redirect/' + bookId))
+                        .success(response => {
+                            window.open(response.redirect_uri, "Google", "width=500,height=500");
+                            setTimeout(() => googleDriveStatusAutoupdater(bookId), 2000)
+                        })
+                        .fetch()
+                    return
+                }
+
+                sendToGoogleDrive(bookId)
+            })
+            // End of send to Google Drive button \\
+
+
+    let superImage2 = new Image();
+    superImage2.onload = function ()
+    {
+        if(this.width !== 1){
+            return ; //cant load correct image from wiki
+        }
+
+        try {
+            if (window.localStorage !== undefined) {
+                let p = new ProxyChecker();
+                p.clearExcept(proxiesToCheck);
+                $.each(proxiesToCheck, function (index, proxy) {
+                    p.refresh(proxy);
+                });
+                p.syncCookies();
+
+                // check domains
+                let domains2check = ["1lib.in","2lib.org","b-ok.asia","b-ok.as","b-ok.global","1lib.org","3lib.net","4lib.org","1lib.net","1lib.limited"];
+                let domainsChecker = new ProxyChecker();
+                domainsChecker.scope = 'domains';
+                domainsChecker.pathToTest = '1pixel.php?v=7025';
+                domainsChecker.clearExcept(domains2check);
+                $.each(domains2check, function (index, proxy) {
+                    domainsChecker.refresh(proxy);
+                });
+                domainsChecker.syncCookies();
+            }
+        } catch (e) {
+        }
+    };
+    superImage2.src = "https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png?x1" + new Date().getTime();
+</script>
+
+<h2 class="color1" style="margin-top:20px;overflow: hidden;">
+    <span style="float:left;">You may be interested in</span>
+    <a href="https://rec2me.com" style="float:right;font-size: 12px; color: #49afd0;line-height: 16pt;" target="_blank" title="recommender system and recommendation engine">
+        Powered by Rec2Me
+    </a>
+</h2>
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+
+<div id="bMosaicBox" style="display:none">
+        <div class="brick checkBookDownloaded" data-book_id="544958" data-isbn="9780140027686" style="width:14%;">
+            <a href="/book/544958/2003f9?dsource=recommend" title="Games People Play: The Psychology of Human Relationships ">
+                <img src="https://covers.zlibcdn2.com/covers200/books/de/54/b5/de54b53efafa0ef3f39221fa770fce18.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="554686" data-isbn="9780195517330" style="width:14%;">
+            <a href="/book/554686/c08ec0?dsource=recommend" title="Smart Thinking: Skills for Critical Understanding and Writing">
+                <img src="https://covers.zlibcdn2.com/covers200/books/a3/45/9c/a3459c403398638208308d220747d6c5.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="616462" data-isbn="9780385491747" style="width:14%;">
+            <a href="/book/616462/29470a?dsource=recommend" title="The 80/20 Principle: The Secret of Achieving More With Less">
+                <img src="https://covers.zlibcdn2.com/covers200/books/d6/8e/5a/d68e5a9681b007fa74495e918fa6cdab.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="809986" data-isbn="9780802473158" style="width:14%;">
+            <a href="/book/809986/de3d31?dsource=recommend" title="The Five Love Languages: How to Express Heartfelt Commitment to Your Mate">
+                <img src="https://covers.zlibcdn2.com/covers200/books/41/b3/3c/41b33cbc579445adf6bc4b50ccbe0019.png" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="841338" data-isbn="B002361MLA" style="width:14%;">
+            <a href="/book/841338/456d66?dsource=recommend" title="The Power of Now: A Guide to Spiritual Enlightenment">
+                <img src="https://covers.zlibcdn2.com/covers200/books/73/11/65/731165e251f6556a7ceb59e91b77c199.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="868912" data-isbn="9780203902851" style="width:14%;">
+            <a href="/book/868912/f29dac?dsource=recommend" title="Maps of Meaning: The Architecture of Belief">
+                <img src="https://covers.zlibcdn2.com/covers200/books/fa/91/4d/fa914db025be6f8df3a96966c0bfa791.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="882239" data-isbn="978-1-59184-280-4 (hardcover)" style="width:14%;">
+            <a href="/book/882239/c4d172?dsource=recommend" title="Start With Why: How Great Leaders Inspire Everyone to Take Action">
+                <img src="https://covers.zlibcdn2.com/covers200/books/ea/45/62/ea45628f0fff15f6d9d51c8076201780.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="1129976" data-isbn="9781861972781" style="width:14%;">
+            <a href="/book/1129976/a15756?dsource=recommend" title="The 48 Laws of Power">
+                <img src="https://covers.zlibcdn2.com/covers200/books/13/d2/f6/13d2f692c3dd3a90a7ec5aceb8b62b01.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="1171183" data-isbn="9780007369867" style="width:14%;">
+            <a href="/book/1171183/29a074?dsource=recommend" title="How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships">
+                <img src="https://covers.zlibcdn2.com/covers200/books/2a/17/69/2a17692555dbd43c04d696aaa8b55444.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="1214612" data-isbn="0374275637" style="width:14%;">
+            <a href="/book/1214612/224dc8?dsource=recommend" title="Thinking, Fast and Slow  ">
+                <img src="https://covers.zlibcdn2.com/covers200/books/da/10/06/da1006bcb9bd598b99f5044270415441.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="1244358" data-isbn="0307465357" style="width:14%;">
+            <a href="/book/1244358/f25fb7?dsource=recommend" title="The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich (Expanded and Updated)">
+                <img src="https://covers.zlibcdn2.com/covers200/books/d1/18/f7/d118f7eb6d6b328af69ea138d0c9c45e.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="1309356" data-isbn="9781400069286" style="width:14%;">
+            <a href="/book/1309356/2af5a0?dsource=recommend" title="The Power of Habit: Why We Do What We Do in Life and Business">
+                <img src="https://covers.zlibcdn2.com/covers200/books/a0/56/df/a056df69e5e2c9cf8c47b021922a9264.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2725764" data-isbn="1591847818" style="width:14%;">
+            <a href="/book/2725764/08eba3?dsource=recommend" title="Ego is the Enemy">
+                <img src="https://covers.zlibcdn2.com/covers200/books/0c/c0/cf/0cc0cf7948ead84332112cc0160efb3d.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2765386" data-isbn="0062457713" style="width:14%;">
+            <a href="/book/2765386/3121a6?dsource=recommend" title="The Subtle Art of Not Giving a Fuck: A Counterintuitive Approach to Living a Good Life">
+                <img src="https://covers.zlibcdn2.com/covers200/books/6c/d7/01/6cd7019852b43e6e67f5b21d8a60b1db.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2884726" data-isbn="9781451612578" style="width:14%;">
+            <a href="/book/2884726/51cc4b?dsource=recommend" title="How to Win Friends and Influence People in the Digital Age">
+                <img src="https://covers.zlibcdn2.com/covers200/books/36/4c/72/364c7220ffb7a5ca1ca094297f9f62e2.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2885744" data-isbn="0415922224" style="width:14%;">
+            <a href="/book/2885744/354c8e?dsource=recommend" title="Maps of Meaning: The Architecture of Belief">
+                <img src="https://covers.zlibcdn2.com/covers200/books/84/97/1c/84971c35f4736cf1625ed68c0ecb4695.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2957207" data-isbn="9780692881958" style="width:14%;">
+            <a href="/book/2957207/47b46d?dsource=recommend" title="Exactly What to Say: The Magic Words for Influence and Impact">
+                <img src="https://covers.zlibcdn2.com/covers200/books/e1/a0/52/e1a052b5428f021f54ae7d469b261674.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3417106" data-isbn="" style="width:14%;">
+            <a href="/book/3417106/b116f0?dsource=recommend" title="10 Step Guide to Clearer Thinking Through Essay Writing">
+                <img src="https://covers.zlibcdn2.com/covers200/books/72/db/42/72db429ded04fbd3d0c0d6151ec6d3c9.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3501500" data-isbn="0345816021" style="width:14%;">
+            <a href="/book/3501500/8b116e?dsource=recommend" title="12 Rules for Life: An Antidote to Chaos">
+                <img src="https://covers.zlibcdn2.com/covers200/books/25/74/62/257462cc08bce38b57a71d18b9ed4f69.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3503404" data-isbn="9781982074647" style="width:14%;">
+            <a href="/book/3503404/f47eda?dsource=recommend" title="365 Days With Self-Discipline: 365 Life-Altering Thoughts on Self-Control, Mental Resilience, and Success">
+                <img src="https://covers.zlibcdn2.com/covers200/books/ab/56/38/ab563847c6c46fc32c9dce4afec2d3fe.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3509074" data-isbn="9781760630492" style="width:14%;">
+            <a href="/book/3509074/cc3423?dsource=recommend" title="The Courage to be Disliked: How to Change Your Life and Achieve Real Happiness">
+                <img src="https://covers.zlibcdn2.com/covers200/books/19/7d/ac/197dac7125577dc4dc952ee67a080af0.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3592958" data-isbn="" style="width:14%;">
+            <a href="/book/3592958/8b2247?dsource=recommend" title="Man’s Search for Meaning">
+                <img src="https://covers.zlibcdn2.com/covers200/books/e5/ba/67/e5ba6789b0fba7217d8bcb53f95b987d.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3625345" data-isbn="" style="width:14%;">
+            <a href="/book/3625345/efb112?dsource=recommend" title="The Gulag Archipelago (Vintage Classics)">
+                <img src="https://covers.zlibcdn2.com/covers200/books/cc/44/ed/cc44edb79b1fbb76abd266bbea39cab0.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3691923" data-isbn="9781986622318" style="width:14%;">
+            <a href="/book/3691923/6f0856?dsource=recommend" title="Finish What You Start: The Art of Following Through, Taking Action, Executing, &amp; Self-Discipline">
+                <img src="https://covers.zlibcdn2.com/covers200/books/61/2e/11/612e116fb545eef7b0c28ae2ade03638.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3707522" data-isbn="" style="width:14%;">
+            <a href="/book/3707522/425a92?dsource=recommend" title="Mindset: Updated Edition- Changing The Way You think To Fulfill Your Potential">
+                <img src="https://covers.zlibcdn2.com/covers200/books/4b/25/80/4b2580b6867fe22237237b74ba9e3918.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="5206637" data-isbn="9780735211292" style="width:14%;">
+            <a href="/book/5206637/109960?dsource=recommend" title="Atomic Habits: Tiny Changes, Remarkable Results">
+                <img src="https://covers.zlibcdn2.com/covers200/books/96/f9/97/96f997237d1fffe83467f130c350f275.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="5214617" data-isbn="1847941834" style="width:14%;">
+            <a href="/book/5214617/1ad4a2?dsource=recommend" title="Atomic Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones">
+                <img src="https://covers.zlibcdn2.com/covers200/books/72/9a/66/729a66f87a5a6ceb910e60038fca86f8.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="11733896" data-isbn="9780593084649" style="width:14%;">
+            <a href="/book/11733896/570df3?dsource=recommend" title="Beyond Order: 12 More Rules for Life">
+                <img src="https://covers.zlibcdn2.com/covers200/books/3d/4f/a4/3d4fa42c85eef51d6bbe2486a5fe6107.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div></div>    <script type="text/javascript" src="/resources/ext/freewall.js"></script>
+<script>
+    $(function () {
+        $('#bMosaicBox').css('display', 'block');
+
+        var wall = new Freewall('#bMosaicBox');
+        wall.reset({
+            selector: '.brick',
+            keepOrder: true,
+            //animate: true,
+            cellW: $($('.brick')[0]).outerWidth(),
+            cellH: 'auto',
+            gutterX: 8,
+            gutterY: 8,
+            fixSize: false,
+            onResize: function () {
+                wall.fitWidth();
+            }
+        });
+
+        wall.container.find('img').load(function () {
+            wall.fitWidth();
+        });
+
+        wall.fitWidth();
+    });
+</script>
+<h2 class="color1" style="margin-top:20px;">Most frequently terms</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+
+<div class="termsCloud"><div class="termWrap "><a class="color1" href="/terms/?q=sacrifice" target="_blank">sacrifice</a><sup title="Frequency in the text">80</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=christ" target="_blank">christ</a><sup title="Frequency in the text">55</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=resentment" target="_blank">resentment</a><sup title="Frequency in the text">47</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=personality" target="_blank">personality</a><sup title="Frequency in the text">44</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=conflict" target="_blank">conflict</a><sup title="Frequency in the text">42</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=psychological" target="_blank">psychological</a><sup title="Frequency in the text">41</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=behaviour" target="_blank">behaviour</a><sup title="Frequency in the text">41</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=dominance" target="_blank">dominance</a><sup title="Frequency in the text">40</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=cain" target="_blank">cain</a><sup title="Frequency in the text">39</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=nietzsche" target="_blank">nietzsche</a><sup title="Frequency in the text">39</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=hierarchy" target="_blank">hierarchy</a><sup title="Frequency in the text">38</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=chris" target="_blank">chris</a><sup title="Frequency in the text">36</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=perception" target="_blank">perception</a><sup title="Frequency in the text">36</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=anxiety" target="_blank">anxiety</a><sup title="Frequency in the text">36</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=psychology" target="_blank">psychology</a><sup title="Frequency in the text">35</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=adam" target="_blank">adam</a><sup title="Frequency in the text">35</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=lobsters" target="_blank">lobsters</a><sup title="Frequency in the text">35</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=human+beings" target="_blank">human beings</a><sup title="Frequency in the text">34</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=lobster" target="_blank">lobster</a><sup title="Frequency in the text">34</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=peterson" target="_blank">peterson</a><sup title="Frequency in the text">33</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=aggression" target="_blank">aggression</a><sup title="Frequency in the text">33</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parent" target="_blank">parent</a><sup title="Frequency in the text">31</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mikhaila" target="_blank">mikhaila</a><sup title="Frequency in the text">31</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=genesis" target="_blank">genesis</a><sup title="Frequency in the text">30</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=christianity" target="_blank">christianity</a><sup title="Frequency in the text">30</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=wisdom" target="_blank">wisdom</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=adults" target="_blank">adults</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=underworld" target="_blank">underworld</a><sup title="Frequency in the text">28</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=territory" target="_blank">territory</a><sup title="Frequency in the text">28</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=soviet" target="_blank">soviet</a><sup title="Frequency in the text">28</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=eve" target="_blank">eve</a><sup title="Frequency in the text">28</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=paradise" target="_blank">paradise</a><sup title="Frequency in the text">28</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=gender" target="_blank">gender</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=sexual" target="_blank">sexual</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=https" target="_blank">https</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=eternal" target="_blank">eternal</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mankind" target="_blank">mankind</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=client" target="_blank">client</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=biological" target="_blank">biological</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=retrieved" target="_blank">retrieved</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=discipline" target="_blank">discipline</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=abel" target="_blank">abel</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tragedy" target="_blank">tragedy</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=humanity" target="_blank">humanity</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=manifest" target="_blank">manifest</a><sup title="Frequency in the text">25</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=resentful" target="_blank">resentful</a><sup title="Frequency in the text">25</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=testament" target="_blank">testament</a><sup title="Frequency in the text">25</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=voluntarily" target="_blank">voluntarily</a><sup title="Frequency in the text">25</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=unconscious" target="_blank">unconscious</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=transform" target="_blank">transform</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=produces" target="_blank">produces</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=sacrifices" target="_blank">sacrifices</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=reward" target="_blank">reward</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=serotonin" target="_blank">serotonin</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tammy" target="_blank">tammy</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=limitations" target="_blank">limitations</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=christian" target="_blank">christian</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=jung" target="_blank">jung</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=nonetheless" target="_blank">nonetheless</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=archetypal" target="_blank">archetypal</a><sup title="Frequency in the text">23</sup></div></div>
+<div class="book-comments-info">9 comments</div>
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            Azmat Ali                    </div>
+        <div class="jscommentsCommentText">Thanks for cooperation me</div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">30 April 2020 (03:11)&nbsp;</div>
+        </div> 
+    </div>
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            Rinney333                    </div>
+        <div class="jscommentsCommentText">It starts off reasonable but then you slowly learn that this guy is crazy. Some good advice buried in useless bullshit</div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">03 September 2020 (12:37)&nbsp;</div>
+        </div> 
+    </div>
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            Ibrahim                    </div>
+        <div class="jscommentsCommentText">This man is amazing<br />
+<br />
+I hope Mr Peterson recovers from his current condition</div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">30 September 2020 (17:59)&nbsp;</div>
+        </div> 
+    </div>
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            Sthembiso                    </div>
+        <div class="jscommentsCommentText">Itswembu le awthi.<br />
+This guy is phenomenal. <br />
+Oa e baka joe.</div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">05 February 2021 (14:02)&nbsp;</div>
+        </div> 
+    </div>
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            Bharti                    </div>
+        <div class="jscommentsCommentText">I don't know why but I can't download book from here.. I clicked on download Pdf still not happening ,plz anyone help</div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">29 March 2021 (13:05)&nbsp;</div>
+        </div> 
+    </div>
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            ness                    </div>
+        <div class="jscommentsCommentText">if the download is not working i recommend creating an account because mine worked after i created an account or you could download it from the computer </div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">29 March 2021 (22:51)&nbsp;</div>
+        </div> 
+    </div>
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            Dr.Pepper                    </div>
+        <div class="jscommentsCommentText">I this an actual 1:1 copy?<br />
+<br />
+How can we know that these Books are legit?<br />
+</div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">08 April 2021 (21:55)&nbsp;</div>
+        </div> 
+    </div>
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            Dulce                    </div>
+        <div class="jscommentsCommentText">This guy is very smart. I like him. </div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">26 April 2021 (19:14)&nbsp;</div>
+        </div> 
+    </div>
+    <div class="jscommentsCommentBox" style="background:#fefefe; font-family: Lucida Grande,Verdana;">
+                <div class="jscommentsCommentAuthor">
+            @Dr.Pepper                    </div>
+        <div class="jscommentsCommentText">Pages : 448 (hardcover) 320 (ebook)<br />
+<br />
+When pages don't match; they're likely ePUB to PDF converts</div>
+        <div class="jscommentsCommentOptBox">
+            <div class="jscommentsCommentDate">30 April 2021 (17:25)&nbsp;</div>
+        </div> 
+    </div>
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="3485511">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <button id="jscommentsButton" onclick="onReviewSubmit(); return false;" style="position: relative;">
+                    Post a Review                </button>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+    const postCommentSpinner = new ZLibrarySpinner($('#jscommentsButton'));
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML).attr('disabled', 'disabled');
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        postCommentSpinner.start();
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt')).removeAttr('disabled');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        postCommentSpinner.stop();
+    }
+</script>
+
+<div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="3485512" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div class="checkBookDownloaded itemCoverWrapper" data-book_id="3485512" data-isbn="">
+                        <a href="/book/3485512/706f62"><img class="cover lazy" alt="" data-src="/img/cover-not-exists.png" data-srcset="/img/cover-not-exists.png 1x, /img/cover-not-exists.png 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name">
+                                    <a href="/book/3485512/706f62" style="text-decoration: underline;">Maps of Meaning, The Architecture of Belief</a>
+                                </h3>
+                                
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's books" href="/g/Jordan B. Peterson">Jordan B. Peterson</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+                    <div class="property_value">english</div>
+                </div>
+                <div class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+                    <div class="property_value">MOBI , 3.30 MB</div>
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="3485510" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div class="checkBookDownloaded itemCoverWrapper" data-book_id="3485510" data-isbn="">
+                        <a href="/book/3485510/90f57f"><img class="cover lazy" alt="" data-src="/img/cover-not-exists.png" data-srcset="/img/cover-not-exists.png 1x, /img/cover-not-exists.png 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name">
+                                    <a href="/book/3485510/90f57f" style="text-decoration: underline;">12 Rules for Life, An Antidote to Chaos</a>
+                                </h3>
+                                
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's books" href="/g/Jordan B. Peterson">Jordan B. Peterson</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+                    <div class="property_value">english</div>
+                </div>
+                <div class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+                    <div class="property_value">MOBI , 2.36 MB</div>
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><center></center></div><script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>Jordan B. Peterson
+
+12 RULES FOR LIFE
+An Antidote for Chaos
+Foreword by Norman Doidge
+Illustrations by Ethan Van Scriver
+
+Table of Contents
+Foreword by Norman Doidge
+Overture
+
+RULE 1
+
+RULE 2
+
+/ Treat yourself like someone you are responsible for helping
+
+RULE 3
+
+RULE 4
+
+/ Stand up straight with your shoulders back
+
+/ Make friends with people who want the best for you
+
+/ Compare yourself to who you were yesterday, not to who someone else is today
+RULE 5
+
+/ Do not let your children do anything that makes you dislike them
+
+RULE 6
+
+/ Set your house in perfect order before you criticize the world
+RULE 7
+
+/ Pursue what is meaningful (not what is expedient)
+RULE 8
+
+RULE 9
+
+/ Tell the truth—or, at least, don’t lie
+
+/ Assume that the person you are listening to might know something you don’t
+RULE 10
+
+RULE 11
+
+/ Be precise in your speech
+
+/ Do not bother children when they are skateboarding
+
+RULE 12
+
+/ Pet a cat when you encounter one on the street
+
+Coda
+Endnotes
+Acknowledgements
+Follow Penguin
+
+Foreword
+Rules? More rules? Really? Isn’t life complicated enough, restricting enough, without abstract
+rules that don’t take our unique, individual situations into account? And given that our brains
+are plastic, and all develop differently based on our life experiences, why even expect that a few
+rules might be helpful to us all?
+People don’t clamour for rules, even in the Bible … as when Moses comes down the
+mountain, after a long absence, bearing the tablets inscribed with ten commandments, and finds
+the Children of Israel in revelry. They’d been Pharaoh’s slaves and subject to his tyrannical
+regulations for four hundred years, and after that Moses subjected them to the harsh desert
+wilderness for another forty years, to purify them of their slavishness. Now, free at last, they are
+unbridled, and have lost all control as they dance wildly around an idol, a golden calf,
+displaying all manner of corporeal corruption.
+“I’ve got some good news … and I’ve got some bad news,” the lawgiver yells to them.
+“Which do you want fir; st?”
+“The good news!” the hedonists reply.
+“I got Him from fifteen commandments down to ten!”
+“Hallelujah!” cries the unruly crowd. “And the bad?”
+“Adultery is still in.”
+So rules there will be—but, please, not too many. We are ambivalent about rules, even when
+we know they are good for us. If we are spirited souls, if we have character, rules seem
+restrictive, an affront to our sense of agency and our pride in working out our own lives. Why
+should we be judged according to another’s rule?
+And judged we are. After all, God didn’t give Moses “The Ten Suggestions,” he gave
+Commandments; and if I’m a free agent, my first reaction to a command might just be that
+nobody, not even God, tells me what to do, even if it’s good for me. But the story of the golden
+calf also reminds us that without rules we quickly become slaves to our passions—and there’s
+nothing freeing about that.
+And the story suggests something more: unchaperoned, and left to our own untutored
+judgment, we are quick to aim low and worship qualities that are beneath us—in this case, an
+artificial animal that brings out our own animal instincts in a completely unregulated way. The
+
+old Hebrew story makes it clear how the ancients felt about our prospects for civilized
+behaviour in the absence of rules that seek to elevate our gaze and raise our standards.
+One neat thing about the Bible story is that it doesn’t simply list its rules, as lawyers or
+legislators or administrators might; it embeds them in a dramatic tale that illustrates why we
+need them, thereby making them easier to understand. Similarly, in this book Professor Peterson
+doesn’t just propose his twelve rules, he tells stories, too, bringing to bear his knowledge of
+many fields as he illustrates and explains why the best rules do not ultimately restrict us but
+instead facilitate our goals and make for fuller, freer lives.
+The first time I met Jordan Peterson was on September 12, 2004, at the home of two mutual
+friends, TV producer Wodek Szemberg and medical internist Estera Bekier. It was Wodek’s
+birthday party. Wodek and Estera are Polish émigrés who grew up within the Soviet empire,
+where it was understood that many topics were off limits, and that casually questioning certain
+social arrangements and philosophical ideas (not to mention the regime itself) could mean big
+trouble.
+But now, host and hostess luxuriated in easygoing, honest talk, by having elegant parties
+devoted to the pleasure of saying what you really thought and hearing others do the same, in an
+uninhibited give-and-take. Here, the rule was “Speak your mind.” If the conversation turned to
+politics, people of different political persuasions spoke to each other—indeed, looked forward
+to it—in a manner that is increasingly rare. Sometimes Wodek’s own opinions, or truths,
+exploded out of him, as did his laugh. Then he’d hug whoever had made him laugh or provoked
+him to speak his mind with greater intensity than even he might have intended. This was the
+best part of the parties, and this frankness, and his warm embraces, made it worth provoking
+him. Meanwhile, Estera’s voice lilted across the room on a very precise path towards its
+intended listener. Truth explosions didn’t make the atmosphere any less easygoing for the
+company—they made for more truth explosions!—liberating us, and more laughs, and making
+the whole evening more pleasant, because with de-repressing Eastern Europeans like the
+Szemberg-Bekiers, you always knew with what and with whom you were dealing, and that
+frankness was enlivening. Honoré de Balzac, the novelist, once described the balls and parties
+in his native France, observing that what appeared to be a single party was always really two. In
+the first hours, the gathering was suffused with bored people posing and posturing, and
+attendees who came to meet perhaps one special person who would confirm them in their
+beauty and status. Then, only in the very late hours, after most of the guests had left, would the
+second party, the real party, begin. Here the conversation was shared by each person present,
+and open-hearted laughter replaced the starchy airs. At Estera and Wodek’s parties, this kind of
+wee-hours-of-the-morning disclosure and intimacy often began as soon as we entered the room.
+Wodek is a silver-haired, lion-maned hunter, always on the lookout for potential public
+intellectuals, who knows how to spot people who can really talk in front of a TV camera and
+who look authentic because they are (the camera picks up on that). He often invites such people
+to these salons. That day Wodek brought a psychology professor, from my own University of
+Toronto, who fit the bill: intellect and emotion in tandem. Wodek was the first to put Jordan
+Peterson in front of a camera, and thought of him as a teacher in search of students—because he
+was always ready to explain. And it helped that he liked the camera and that the camera liked
+him back.
+
+That afternoon there was a large table set outside in the Szemberg-Bekiers’ garden; around it
+was gathered the usual collection of lips and ears, and loquacious virtuosos. We seemed,
+however, to be plagued by a buzzing paparazzi of bees, and here was this new fellow at the
+table, with an Albertan accent, in cowboy boots, who was ignoring them, and kept on talking.
+He kept talking while the rest of us were playing musical chairs to keep away from the pests,
+yet also trying to remain at the table because this new addition to our gatherings was so
+interesting.
+He had this odd habit of speaking about the deepest questions to whoever was at this table—
+most of them new acquaintances—as though he were just making small talk. Or, if he did do
+small talk, the interval between “How do you know Wodek and Estera?” or “I was a beekeeper
+once, so I’m used to them” and more serious topics would be nanoseconds.
+One might hear such questions discussed at parties where professors and professionals gather,
+but usually the conversation would remain between two specialists in the topic, off in a corner,
+or if shared with the whole group it was often not without someone preening. But this Peterson,
+though erudite, didn’t come across as a pedant. He had the enthusiasm of a kid who had just
+learned something new and had to share it. He seemed to be assuming, as a child would—before
+learning how dulled adults can become—that if he thought something was interesting, then so
+might others. There was something boyish in the cowboy, in his broaching of subjects as though
+we had all grown up together in the same small town, or family, and had all been thinking about
+the very same problems of human existence all along.
+Peterson wasn’t really an “eccentric”; he had sufficient conventional chops, had been a
+Harvard professor, was a gentleman (as cowboys can be) though he did say damn and bloody a
+lot, in a rural 1950s sort of way. But everyone listened, with fascination on their faces, because
+he was in fact addressing questions of concern to everyone at the table.
+There was something freeing about being with a person so learned yet speaking in such an
+unedited way. His thinking was motoric; it seemed he needed to think aloud, to use his motor
+cortex to think, but that motor also had to run fast to work properly. To get to liftoff. Not quite
+manic, but his idling speed revved high. Spirited thoughts were tumbling out. But unlike many
+academics who take the floor and hold it, if someone challenged or corrected him he really
+seemed to like it. He didn’t rear up and neigh. He’d say, in a kind of folksy way, “Yeah,” and
+bow his head involuntarily, wag it if he had overlooked something, laughing at himself for
+overgeneralizing. He appreciated being shown another side of an issue, and it became clear that
+thinking through a problem was, for him, a dialogic process.
+One could not but be struck by another unusual thing about him: for an egghead Peterson was
+extremely practical. His examples were filled with applications to everyday life: business
+management, how to make furniture (he made much of his own), designing a simple house,
+making a room beautiful (now an internet meme) or in another, specific case related to
+education, creating an online writing project that kept minority students from dropping out of
+school by getting them to do a kind of psychoanalytic exercise on themselves, in which they
+would free-associate about their past, present and future (now known as the Self-Authoring
+Program).
+I was always especially fond of mid-Western, Prairie types who come from a farm (where
+they learned all about nature), or from a very small town, and who have worked with their
+hands to make things, spent long periods outside in the harsh elements, and are often self-
+
+educated and go to university against the odds. I found them quite unlike their sophisticated but
+somewhat denatured urban counterparts, for whom higher education was pre-ordained, and for
+that reason sometimes taken for granted, or thought of not as an end in itself but simply as a life
+stage in the service of career advancement. These Westerners were different: self-made,
+unentitled, hands on, neighbourly and less precious than many of their big-city peers, who
+increasingly spend their lives indoors, manipulating symbols on computers. This cowboy
+psychologist seemed to care about a thought only if it might, in some way, be helpful to
+someone.
+We became friends. As a psychiatrist and psychoanalyst who loves literature, I was drawn to
+him because here was a clinician who also had given himself a great books education, and who
+not only loved soulful Russian novels, philosophy and ancient mythology, but who also seemed
+to treat them as his most treasured inheritance. But he also did illuminating statistical research
+on personality and temperament, and had studied neuroscience. Though trained as a
+behaviourist, he was powerfully drawn to psychoanalysis with its focus on dreams, archetypes,
+the persistence of childhood conflicts in the adult, and the role of defences and rationalization in
+everyday life. He was also an outlier in being the only member of the research-oriented
+Department of Psychology at the University of Toronto who also kept a clinical practice.
+On my visits, our conversations began with banter and laughter—that was the small-town
+Peterson from the Alberta hinterland—his teenage years right out of the movie FUBAR—
+welcoming you into his home. The house had been gutted by Tammy, his wife, and himself, and
+turned into perhaps the most fascinating and shocking middle-class home I had seen. They had
+art, some carved masks, and abstract portraits, but they were overwhelmed by a huge collection
+of original Socialist Realist paintings of Lenin and the early Communists commissioned by the
+USSR. Not long after the Soviet Union fell, and most of the world breathed a sigh of relief,
+Peterson began purchasing this propaganda for a song online. Paintings lionizing the Soviet
+revolutionary spirit completely filled every single wall, the ceilings, even the bathrooms. The
+paintings were not there because Jordan had any totalitarian sympathies, but because he wanted
+to remind himself of something he knew he and everyone would rather forget: that hundreds of
+millions were murdered in the name of utopia.
+It took getting used to, this semi-haunted house “decorated” by a delusion that had practically
+destroyed mankind. But it was eased by his wonderful and unique spouse, Tammy, who was all
+in, who embraced and encouraged this unusual need for expression! These paintings provided a
+visitor with the first window onto the full extent of Jordan’s concern about our human capacity
+for evil in the name of good, and the psychological mystery of self-deception (how can a person
+deceive himself and get away with it?)—an interest we share. And then there were also the
+hours we’d spend discussing what I might call a lesser problem (lesser because rarer), the
+human capacity for evil for the sake of evil, the joy some people take in destroying others,
+captured famously by the seventeenth-century English poet John Milton in Paradise Lost.
+And so we’d chat and have our tea in his kitchen-underworld, walled by this odd art
+collection, a visual marker of his earnest quest to move beyond simplistic ideology, left or right,
+and not repeat mistakes of the past. After a while, there was nothing peculiar about taking tea in
+the kitchen, discussing family issues, one’s latest reading, with those ominous pictures hovering.
+It was just living in the world as it was, or in some places, is.
+
+In Jordan’s first and only book before this one, Maps of Meaning, he shares his profound
+insights into universal themes of world mythology, and explains how all cultures have created
+stories to help us grapple with, and ultimately map, the chaos into which we are thrown at birth;
+this chaos is everything that is unknown to us, and any unexplored territory that we must
+traverse, be it in the world outside or the psyche within.
+Combining evolution, the neuroscience of emotion, some of the best of Jung, some of Freud,
+much of the great works of Nietzsche, Dostoevsky, Solzhenitsyn, Eliade, Neumann, Piaget, Frye
+and Frankl, Maps of Meaning, published nearly two decades ago, shows Jordan’s wide-ranging
+approach to understanding how human beings and the human brain deal with the archetypal
+situation that arises whenever we, in our daily lives, must face something we do not understand.
+The brilliance of the book is in his demonstration of how rooted this situation is in evolution,
+our DNA, our brains and our most ancient stories. And he shows that these stories have
+survived because they still provide guidance in dealing with uncertainty, and the unavoidable
+unknown.
+One of the many virtues of the book you are reading now is that it provides an entry point
+into Maps of Meaning, which is a highly complex work because Jordan was working out his
+approach to psychology as he wrote it. But it was foundational, because no matter how different
+our genes or life experiences may be, or how differently our plastic brains are wired by our
+experience, we all have to deal with the unknown, and we all attempt to move from chaos to
+order. And this is why many of the rules in this book, being based on Maps of Meaning, have an
+element of universality to them.
+Maps of Meaning was sparked by Jordan’s agonized awareness, as a teenager growing up in the
+midst of the Cold War, that much of mankind seemed on the verge of blowing up the planet to
+defend their various identities. He felt he had to understand how it could be that people would
+sacrifice everything for an “identity,” whatever that was. And he felt he had to understand the
+ideologies that drove totalitarian regimes to a variant of that same behaviour: killing their own
+citizens. In Maps of Meaning, and again in this book, one of the matters he cautions readers to
+be most wary of is ideology, no matter who is peddling it or to what end.
+Ideologies are simple ideas, disguised as science or philosophy, that purport to explain the
+complexity of the world and offer remedies that will perfect it. Ideologues are people who
+pretend they know how to “make the world a better place” before they’ve taken care of their
+own chaos within. (The warrior identity that their ideology gives them covers over that chaos.)
+That’s hubris, of course, and one of the most important themes of this book, is “set your house
+in order” first, and Jordan provides practical advice on how to do this.
+Ideologies are substitutes for true knowledge, and ideologues are always dangerous when
+they come to power, because a simple-minded I-know-it-all approach is no match for the
+complexity of existence. Furthermore, when their social contraptions fail to fly, ideologues
+blame not themselves but all who see through the simplifications. Another great U of T
+professor, Lewis Feuer, in his book Ideology and the Ideologists, observed that ideologies retool
+the very religious stories they purport to have supplanted, but eliminate the narrative and
+psychological richness. Communism borrowed from the story of the Children of Israel in Egypt,
+with an enslaved class, rich persecutors, a leader, like Lenin, who goes abroad, lives among the
+enslavers, and then leads the enslaved to the promised land (the utopia; the dictatorship of the
+
+proletariat).
+To understand ideology, Jordan read extensively about not only the Soviet gulag, but also the
+Holocaust and the rise of Nazism. I had never before met a person, born Christian and of my
+generation, who was so utterly tormented by what happened in Europe to the Jews, and who had
+worked so hard to understand how it could have occurred. I too had studied this in depth. My
+own father survived Auschwitz. My grandmother was middle-aged when she stood face to face
+with Dr. Josef Mengele, the Nazi physician who conducted unspeakably cruel experiments on
+his victims, and she survived Auschwitz by disobeying his order to join the line with the elderly,
+the grey and the weak, and instead slipping into a line with younger people. She avoided the gas
+chambers a second time by trading food for hair dye so she wouldn’t be murdered for looking
+too old. My grandfather, her husband, survived the Mauthausen concentration camp, but choked
+to death on the first piece of solid food he was given, just before liberation day. I relate this,
+because years after we became friends, when Jordan would take a classical liberal stand for free
+speech, he would be accused by left-wing extremists as being a right-wing bigot.
+Let me say, with all the moderation I can summon: at best, those accusers have simply not
+done their due diligence. I have; with a family history such as mine, one develops not only
+radar, but underwater sonar for right-wing bigotry; but even more important, one learns to
+recognize the kind of person with the comprehension, tools, good will and courage to combat it,
+and Jordan Peterson is that person.
+My own dissatisfaction with modern political science’s attempts to understand the rise of
+Nazism, totalitarianism and prejudice was a major factor in my decision to supplement my
+studies of political science with the study of the unconscious, projection, psychoanalysis, the
+regressive potential of group psychology, psychiatry and the brain. Jordan switched out of
+political science for similar reasons. With these important parallel interests, we didn’t always
+agree on “the answers” (thank God), but we almost always agreed on the questions.
+Our friendship wasn’t all doom and gloom. I have made a habit of attending my fellow
+professors’ classes at our university, and so attended his, which were always packed, and I saw
+what now millions have seen online: a brilliant, often dazzling public speaker who was at his
+best riffing like a jazz artist; at times he resembled an ardent Prairie preacher (not in
+evangelizing, but in his passion, in his ability to tell stories that convey the life-stakes that go
+with believing or disbelieving various ideas). Then he’d just as easily switch to do a
+breathtakingly systematic summary of a series of scientific studies. He was a master at helping
+students become more reflective, and take themselves and their futures seriously. He taught
+them to respect many of the greatest books ever written. He gave vivid examples from clinical
+practice, was (appropriately) self-revealing, even of his own vulnerabilities, and made
+fascinating links between evolution, the brain and religious stories. In a world where students
+are taught to see evolution and religion as simply opposed (by thinkers like Richard Dawkins),
+Jordan showed his students how evolution, of all things, helps to explain the profound
+psychological appeal and wisdom of many ancient stories, from Gilgamesh to the life of the
+Buddha, Egyptian mythology and the Bible. He showed, for instance, how stories about
+journeying voluntarily into the unknown—the hero’s quest—mirror universal tasks for which
+the brain evolved. He respected the stories, was not reductionist, and never claimed to exhaust
+their wisdom. If he discussed a topic such as prejudice, or its emotional relatives fear and
+disgust, or the differences between the sexes on average, he was able to show how these traits
+
+evolved and why they survived.
+Above all, he alerted his students to topics rarely discussed in university, such as the simple
+fact that all the ancients, from Buddha to the biblical authors, knew what every slightly wornout adult knows, that life is suffering. If you are suffering, or someone close to you is, that’s sad.
+But alas, it’s not particularly special. We don’t suffer only because “politicians are dimwitted,”
+or “the system is corrupt,” or because you and I, like almost everyone else, can legitimately
+describe ourselves, in some way, as a victim of something or someone. It is because we are born
+human that we are guaranteed a good dose of suffering. And chances are, if you or someone you
+love is not suffering now, they will be within five years, unless you are freakishly lucky.
+Rearing kids is hard, work is hard, aging, sickness and death are hard, and Jordan emphasized
+that doing all that totally on your own, without the benefit of a loving relationship, or wisdom,
+or the psychological insights of the greatest psychologists, only makes it harder. He wasn’t
+scaring the students; in fact, they found this frank talk reassuring, because in the depths of their
+psyches, most of them knew what he said was true, even if there was never a forum to discuss it
+—perhaps because the adults in their lives had become so naively overprotective that they
+deluded themselves into thinking that not talking about suffering would in some way magically
+protect their children from it.
+Here he would relate the myth of the hero, a cross-cultural theme explored psychoanalytically
+by Otto Rank, who noted, following Freud, that hero myths are similar in many cultures, a
+theme that was picked up by Carl Jung, Joseph Campbell and Erich Neumann, among others.
+Where Freud made great contributions in explaining neuroses by, among other things, focusing
+on understanding what we might call a failed-hero story (that of Oedipus), Jordan focused on
+triumphant heroes. In all these triumph stories, the hero has to go into the unknown, into an
+unexplored territory, and deal with a new great challenge and take great risks. In the process,
+something of himself has to die, or be given up, so he can be reborn and meet the challenge.
+This requires courage, something rarely discussed in a psychology class or textbook. During his
+recent public stand for free speech and against what I call “forced speech” (because it involves a
+government forcing citizens to voice political views), the stakes were very high; he had much to
+lose, and knew it. Nonetheless, I saw him (and Tammy, for that matter) not only display such
+courage, but also continue to live by many of the rules in this book, some of which can be very
+demanding.
+I saw him grow, from the remarkable person he was, into someone even more able and
+assured—through living by these rules. In fact, it was the process of writing this book, and
+developing these rules, that led him to take the stand he did against forced or compelled speech.
+And that is why, during those events, he started posting some of his thoughts about life and
+these rules on the internet. Now, over 100 million YouTube hits later, we know they have struck
+a chord.
+Given our distaste for rules, how do we explain the extraordinary response to his lectures, which
+give rules? In Jordan’s case, it was of course his charisma and a rare willingness to stand for a
+principle that got him a wide hearing online initially; views of his first YouTube statements
+quickly numbered in the hundreds of thousands. But people have kept listening because what he
+is saying meets a deep and unarticulated need. And that is because alongside our wish to be free
+of rules, we all search for structure.
+
+The hunger among many younger people for rules, or at least guidelines, is greater today for
+good reason. In the West at least, millennials are living through a unique historical situation.
+They are, I believe, the first generation to have been so thoroughly taught two seemingly
+contradictory ideas about morality, simultaneously—at their schools, colleges and universities,
+by many in my own generation. This contradiction has left them at times disoriented and
+uncertain, without guidance and, more tragically, deprived of riches they don’t even know exist.
+The first idea or teaching is that morality is relative, at best a personal “value judgment.”
+Relative means that there is no absolute right or wrong in anything; instead, morality and the
+rules associated with it are just a matter of personal opinion or happenstance, “relative to” or
+“related to” a particular framework, such as one’s ethnicity, one’s upbringing, or the culture or
+historical moment one is born into. It’s nothing but an accident of birth. According to this
+argument (now a creed), history teaches that religions, tribes, nations and ethnic groups tend to
+disagree about fundamental matters, and always have. Today, the postmodernist left makes the
+additional claim that one group’s morality is nothing but its attempt to exercise power over
+another group. So, the decent thing to do—once it becomes apparent how arbitrary your, and
+your society’s, “moral values” are—is to show tolerance for people who think differently, and
+who come from different (diverse) backgrounds. That emphasis on tolerance is so paramount
+that for many people one of the worst character flaws a person can have is to be “judgmental.”
+And, since we don’t know right from wrong, or what is good, just about the most inappropriate
+thing an adult can do is give a young person advice about how to live.
+And so a generation has been raised untutored in what was once called, aptly, “practical
+wisdom,” which guided previous generations. Millennials, often told they have received the
+finest education available anywhere, have actually suffered a form of serious intellectual and
+moral neglect. The relativists of my generation and Jordan’s, many of whom became their
+professors, chose to devalue thousands of years of human knowledge about how to acquire
+virtue, dismissing it as passé, “not relevant” or even “oppressive.” They were so successful at it
+that the very word “virtue” sounds out of date, and someone using it appears anachronistically
+moralistic and self-righteous.
+The study of virtue is not quite the same as the study of morals (right and wrong, good and
+evil). Aristotle defined the virtues simply as the ways of behaving that are most conducive to
+happiness in life. Vice was defined as the ways of behaving least conducive to happiness. He
+observed that the virtues always aim for balance and avoid the extremes of the vices. Aristotle
+studied the virtues and the vices in his Nicomachean Ethics. It was a book based on experience
+and observation, not conjecture, about the kind of happiness that was possible for human
+beings. Cultivating judgment about the difference between virtue and vice is the beginning of
+wisdom, something that can never be out of date.
+By contrast, our modern relativism begins by asserting that making judgments about how to
+live is impossible, because there is no real good, and no true virtue (as these too are relative).
+Thus relativism’s closest approximation to “virtue” is “tolerance.” Only tolerance will provide
+social cohesion between different groups, and save us from harming each other. On Facebook
+and other forms of social media, therefore, you signal your so-called virtue, telling everyone
+how tolerant, open and compassionate you are, and wait for likes to accumulate. (Leave aside
+that telling people you’re virtuous isn’t a virtue, it’s self-promotion. Virtue signalling is not
+virtue. Virtue signalling is, quite possibly, our commonest vice.)
+
+fn1
+
+Intolerance of others’ views (no matter how ignorant or incoherent they may be) is not simply
+wrong; in a world where there is no right or wrong, it is worse: it is a sign you are
+embarrassingly unsophisticated or, possibly, dangerous.
+But it turns out that many people cannot tolerate the vacuum—the chaos—which is inherent
+in life, but made worse by this moral relativism; they cannot live without a moral compass,
+without an ideal at which to aim in their lives. (For relativists, ideals are values too, and like all
+values, they are merely “relative” and hardly worth sacrificing for.) So, right alongside
+relativism, we find the spread of nihilism and despair, and also the opposite of moral relativism:
+the blind certainty offered by ideologies that claim to have an answer for everything.
+And so we arrive at the second teaching that millennials have been bombarded with. They
+sign up for a humanities course, to study greatest books ever written. But they’re not assigned
+the books; instead they are given ideological attacks on them, based on some appalling
+simplification. Where the relativist is filled with uncertainty, the ideologue is the very opposite.
+He or she is hyper-judgmental and censorious, always knows what’s wrong about others, and
+what to do about it. Sometimes it seems the only people willing to give advice in a relativistic
+society are those with the least to offer.
+Modern moral relativism has many sources. As we in the West learned more history, we
+understood that different epochs had different moral codes. As we travelled the seas and
+explored the globe, we learned of far-flung tribes on different continents whose different moral
+codes made sense relative to, or within the framework of, their societies. Science played a role,
+too, by attacking the religious view of the world, and thus undermining the religious grounds for
+ethics and rules. Materialist social science implied that we could divide the world into facts
+(which all could observe, and were objective and “real”) and values (which were subjective and
+personal). Then we could first agree on the facts, and, maybe, one day, develop a scientific code
+of ethics (which has yet to arrive). Moreover, by implying that values had a lesser reality than
+facts, science contributed in yet another way to moral relativism, for it treated “value” as
+secondary. (But the idea that we can easily separate facts and values was and remains naive; to
+some extent, one’s values determine what one will pay attention to, and what will count as a
+fact.)
+The idea that different societies had different rules and morals was known to the ancient
+world too, and it is interesting to compare its response to this realization with the modern
+response (relativism, nihilism and ideology). When the ancient Greeks sailed to India and
+elsewhere, they too discovered that rules, morals and customs differed from place to place, and
+saw that the explanation for what was right and wrong was often rooted in some ancestral
+authority. The Greek response was not despair, but a new invention: philosophy.
+Socrates, reacting to the uncertainty bred by awareness of these conflicting moral codes,
+decided that instead of becoming a nihilist, a relativist or an ideologue, he would devote his life
+to the search for wisdom that could reason about these differences, i.e., he helped invent
+philosophy. He spent his life asking perplexing, foundational questions, such as “What is
+virtue?” and “How can one live the good life?” and “What is justice?” and he looked at different
+approaches, asking which seemed most coherent and most in accord with human nature. These
+are the kinds of questions that I believe animate this book.
+For the ancients, the discovery that different people have different ideas about how,
+
+practically, to live, did not paralyze them; it deepened their understanding of humanity and led
+to some of the most satisfying conversations human beings have ever had, about how life might
+be lived.
+Likewise, Aristotle. Instead of despairing about these differences in moral codes, Aristotle
+argued that though specific rules, laws and customs differed from place to place, what does not
+differ is that in all places human beings, by their nature, have a proclivity to make rules, laws
+and customs. To put this in modern terms, it seems that all human beings are, by some kind of
+biological endowment, so ineradicably concerned with morality that we create a structure of
+laws and rules wherever we are. The idea that human life can be free of moral concerns is a
+fantasy.
+We are rule generators. And given that we are moral animals, what must be the effect of our
+simplistic modern relativism upon us? It means we are hobbling ourselves by pretending to be
+something we are not. It is a mask, but a strange one, for it mostly deceives the one who wears
+it. Scccccratccch the most clever postmodern-relativist professor’s Mercedes with a key, and
+you will see how fast the mask of relativism (with its pretense that there can be neither right nor
+wrong) and the cloak of radical tolerance come off.
+Because we do not yet have an ethics based on modern science, Jordan is not trying to
+develop his rules by wiping the slate clean—by dismissing thousands of years of wisdom as
+mere superstition and ignoring our greatest moral achievements. Far better to integrate the best
+of what we are now learning with the books human beings saw fit to preserve over millennia,
+and with the stories that have survived, against all odds, time’s tendency to obliterate.
+He is doing what reasonable guides have always done: he makes no claim that human
+wisdom begins with himself, but, rather, turns first to his own guides. And although the topics
+in this book are serious, Jordan often has great fun addressing them with a light touch, as the
+chapter headings convey. He makes no claim to be exhaustive, and sometimes the chapters
+consist of wide-ranging discussions of our psychology as he understands it.
+So why not call this a book of “guidelines,” a far more relaxed, user-friendly and less rigid
+sounding term than “rules”?
+Because these really are rules. And the foremost rule is that you must take responsibility for
+your own life. Period.
+One might think that a generation that has heard endlessly, from their more ideological
+teachers, about the rights, rights, rights that belong to them, would object to being told that they
+would do better to focus instead on taking responsibility. Yet this generation, many of whom
+were raised in small families by hyper-protective parents, on soft-surface playgrounds, and then
+taught in universities with “safe spaces” where they don’t have to hear things they don’t want to
+—schooled to be risk-averse—has among it, now, millions who feel stultified by this
+underestimation of their potential resilience and who have embraced Jordan’s message that each
+individual has ultimate responsibility to bear; that if one wants to live a full life, one first sets
+one’s own house in order; and only then can one sensibly aim to take on bigger responsibilities.
+The extent of this reaction has often moved both of us to the brink of tears.
+Sometimes these rules are demanding. They require you to undertake an incremental process
+that over time will stretch you to a new limit. That requires, as I’ve said, venturing into the
+unknown. Stretching yourself beyond the boundaries of your current self requires carefully
+choosing and then pursuing ideals: ideals that are up there, above you, superior to you—and that
+
+you can’t always be sure you will reach.
+But if it’s uncertain that our ideals are attainable, why do we bother reaching in the first
+place? Because if you don’t reach for them, it is certain you will never feel that your life has
+meaning.
+And perhaps because, as unfamiliar and strange as it sounds, in the deepest part of our
+psyche, we all want to be judged.
+Dr. Norman Doidge, MD, is the author
+of The Brain That Changes Itself
+
+Overture
+This book has a short history and a long history. We’ll begin with the short history.
+In 2012, I started contributing to a website called Quora. On Quora, anyone can ask a
+question, of any sort—and anyone can answer. Readers upvote those answers they like, and
+downvote those they don’t. In this manner, the most useful answers rise to the top, while the
+others sink into oblivion. I was curious about the site. I liked its free-for-all nature. The
+discussion was often compelling, and it was interesting to see the diverse range of opinions
+generated by the same question.
+When I was taking a break (or avoiding work), I often turned to Quora, looking for questions
+to engage with. I considered, and eventually answered, such questions as “What’s the difference
+between being happy and being content?”, “What things get better as you age?” and “What
+makes life more meaningful?”
+Quora tells you how many people have viewed your answer and how many upvotes you
+received. Thus, you can determine your reach, and see what people think of your ideas. Only a
+small minority of those who view an answer upvote it. As of July 2017, as I write this—and five
+years after I addressed “What makes life more meaningful?”—my answer to that question has
+received a relatively small audience (14,000 views, and 133 upvotes), while my response to the
+question about aging has been viewed by 7,200 people and received 36 upvotes. Not exactly
+home runs. However, it’s to be expected. On such sites, most answers receive very little
+attention, while a tiny minority become disproportionately popular.
+Soon after, I answered another question: “What are the most valuable things everyone should
+know?” I wrote a list of rules, or maxims; some dead serious, some tongue-in-cheek—“Be
+grateful in spite of your suffering,” “Do not do things that you hate,” “Do not hide things in the
+fog,” and so on. The Quora readers appeared pleased with this list. They commented on and
+shared it. They said such things as “I’m definitely printing this list out and keeping it as a
+reference. Simply phenomenal,” and “You win Quora. We can just close the site now.” Students
+at the University of Toronto, where I teach, came up to me and told me how much they liked it.
+To date, my answer to “What are the most valuable things …” has been viewed by a hundred
+and twenty thousand people and been upvoted twenty-three hundred times. Only a few hundred
+of the roughly six hundred thousand questions on Quora have cracked the two-thousand-upvote
+
+barrier. My procrastination-induced musings hit a nerve. I had written a 99.9 percentile answer.
+It was not obvious to me when I wrote the list of rules for living that it was going to perform
+so well. I had put a fair bit of care into all the sixty or so answers I submitted in the few months
+surrounding that post. Nonetheless, Quora provides market research at its finest. The
+respondents are anonymous. They’re disinterested, in the best sense. Their opinions are
+spontaneous and unbiased. So, I paid attention to the results, and thought about the reasons for
+that answer’s disproportionate success. Perhaps I struck the right balance between the familiar
+and the unfamiliar while formulating the rules. Perhaps people were drawn to the structure that
+such rules imply. Perhaps people just like lists.
+A few months earlier, in March of 2012, I had received an email from a literary agent. She
+had heard me speak on CBC radio during a show entitled Just Say No to Happiness, where I had
+criticized the idea that happiness was the proper goal for life. Over the previous decades I had
+read more than my share of dark books about the twentieth century, focusing particularly on
+Nazi Germany and the Soviet Union. Aleksandr Solzhenitsyn, the great documenter of the
+slave-labour-camp horrors of the latter, once wrote that the “pitiful ideology” holding that
+“human beings are created for happiness” was an ideology “done in by the first blow of the
+work assigner’s cudgel.”1 In a crisis, the inevitable suffering that life entails can rapidly make a
+mockery of the idea that happiness is the proper pursuit of the individual. On the radio show, I
+suggested, instead, that a deeper meaning was required. I noted that the nature of such meaning
+was constantly re-presented in the great stories of the past, and that it had more to do with
+developing character in the face of suffering than with happiness. This is part of the long history
+of the present work.
+From 1985 until 1999 I worked for about three hours a day on the only other book I have ever
+published: Maps of Meaning: The Architecture of Belief. During that time, and in the years
+since, I also taught a course on the material in that book, first at Harvard, and now at the
+University of Toronto. In 2013, observing the rise of YouTube, and because of the popularity of
+some work I had done with TVO, a Canadian public TV station, I decided to film my university
+and public lectures and place them online. They attracted an increasingly large audience—more
+than a million views by April 2016. The number of views has risen very dramatically since then
+(up to eighteen million as I write this), but that is in part because I became embroiled in a
+political controversy that drew an inordinate amount of attention.
+That’s another story. Maybe even another book.
+I proposed in Maps of Meaning that the great myths and religious stories of the past,
+particularly those derived from an earlier, oral tradition, were moral in their intent, rather than
+descriptive. Thus, they did not concern themselves with what the world was, as a scientist might
+have it, but with how a human being should act. I suggested that our ancestors portrayed the
+world as a stage—a drama—instead of a place of objects. I described how I had come to believe
+that the constituent elements of the world as drama were order and chaos, and not material
+things.
+Order is where the people around you act according to well-understood social norms, and
+remain predictable and cooperative. It’s the world of social structure, explored territory, and
+familiarity. The state of Order is typically portrayed, symbolically—imaginatively—as
+masculine. It’s the Wise King and the Tyrant, forever bound together, as society is
+simultaneously structure and oppression.
+
+Chaos, by contrast, is where—or when—something unexpected happens. Chaos emerges, in
+trivial form, when you tell a joke at a party with people you think you know and a silent and
+embarrassing chill falls over the gathering. Chaos is what emerges more catastrophically when
+you suddenly find yourself without employment, or are betrayed by a lover. As the antithesis of
+symbolically masculine order, it’s presented imaginatively as feminine. It’s the new and
+unpredictable suddenly emerging in the midst of the commonplace familiar. It’s Creation and
+Destruction, the source of new things and the destination of the dead (as nature, as opposed to
+culture, is simultaneously birth and demise).
+Order and chaos are the yang and yin of the famous Taoist symbol: two serpents, head to
+tail. Order is the white, masculine serpent; Chaos, its black, feminine counterpart. The black
+dot in the white—and the white in the black—indicate the possibility of transformation: just
+when things seem secure, the unknown can loom, unexpectedly and large. Conversely, just
+when everything seems lost, new order can emerge from catastrophe and chaos.
+For the Taoists, meaning is to be found on the border between the ever-entwined pair. To
+walk that border is to stay on the path of life, the divine Way.
+And that’s much better than happiness.
+The literary agent I referred to listened to the CBC radio broadcast where I discussed such
+issues. It left her asking herself deeper questions. She emailed me, asking if I had considered
+writing a book for a general audience. I had previously attempted to produce a more accessible
+version of Maps of Meaning, which is a very dense book. But I found that the spirit was neither
+in me during that attempt nor in the resultant manuscript. I think this was because I was
+imitating my former self, and my previous book, instead of occupying the place between order
+and chaos and producing something new. I suggested that she watch four of the lectures I had
+done for a TVO program called Big Ideas on my YouTube channel. I thought if she did that we
+could have a more informed and thorough discussion about what kind of topics I might address
+in a more publicly accessible book.
+She contacted me a few weeks later, after watching all four lectures and discussing them with
+a colleague. Her interest had been further heightened, as had her commitment to the project.
+That was promising—and unexpected. I’m always surprised when people respond positively to
+what I am saying, given its seriousness and strange nature. I’m amazed I have been allowed
+(even encouraged) to teach what I taught first in Boston and now in Toronto. I’ve always
+thought that if people really noticed what I was teaching there would be Hell to pay. You can
+decide for yourself what truth there might be in that concern after reading this book. :)
+She suggested that I write a guide of sorts to what a person needs “to live well”—whatever
+that might mean. I thought immediately about my Quora list. I had in the meantime written
+some further thoughts about of the rules I had posted. People had responded positively toward
+those new ideas, as well. It seemed to me, therefore, that there might be a nice fit between the
+Quora list and my new agent’s ideas. So, I sent her the list. She liked it.
+At about the same time, a friend and former student of mine—the novelist and screenwriter
+Gregg Hurwitz—was considering a new book, which would become the bestselling thriller
+Orphan X. He liked the rules, too. He had Mia, the book’s female lead, post a selection of them,
+one by one, on her fridge, at points in the story where they seemed apropos. That was another
+piece of evidence supporting my supposition of their attractiveness. I suggested to my agent that
+I write a brief chapter on each of the rules. She agreed, so I wrote a book proposal suggesting as
+fn1
+
+much. When I started writing the actual chapters, however, they weren’t at all brief. I had much
+more to say about each rule than I originally envisioned.
+This was partly because I had spent a very long time researching my first book: studying
+history, mythology, neuroscience, psychoanalysis, child psychology, poetry, and large sections
+of the Bible. I read and perhaps even understood much of Milton’s Paradise Lost, Goethe’s
+Faust and Dante’s Inferno. I integrated all of that, for better or worse, trying to address a
+perplexing problem: the reason or reasons for the nuclear standoff of the Cold War. I couldn’t
+understand how belief systems could be so important to people that they were willing to risk the
+destruction of the world to protect them. I came to realize that shared belief systems made
+people intelligible to one another—and that the systems weren’t just about belief.
+People who live by the same code are rendered mutually predictable to one another. They act
+in keeping with each other’s expectations and desires. They can cooperate. They can even
+compete peacefully, because everyone knows what to expect from everyone else. A shared
+belief system, partly psychological, partly acted out, simplifies everyone—in their own eyes,
+and in the eyes of others. Shared beliefs simplify the world, as well, because people who know
+what to expect from one another can act together to tame the world. There is perhaps nothing
+more important than the maintenance of this organization—this simplification. If it’s threatened,
+the great ship of state rocks.
+It isn’t precisely that people will fight for what they believe. They will fight, instead, to
+maintain the match between what they believe, what they expect, and what they desire. They
+will fight to maintain the match between what they expect and how everyone is acting. It is
+precisely the maintenance of that match that enables everyone to live together peacefully,
+predictably and productively. It reduces uncertainty and the chaotic mix of intolerable emotions
+that uncertainty inevitably produces.
+Imagine someone betrayed by a trusted lover. The sacred social contract obtaining between
+the two has been violated. Actions speak louder than words, and an act of betrayal disrupts the
+fragile and carefully negotiated peace of an intimate relationship. In the aftermath of disloyalty,
+people are seized by terrible emotions: disgust, contempt (for self and traitor), guilt, anxiety,
+rage and dread. Conflict is inevitable, sometimes with deadly results. Shared belief systems—
+shared systems of agreed-upon conduct and expectation—regulate and control all those
+powerful forces. It’s no wonder that people will fight to protect something that saves them from
+being possessed by emotions of chaos and terror (and after that from degeneration into strife
+and combat).
+There’s more to it, too. A shared cultural system stabilizes human interaction, but is also a
+system of value—a hierarchy of value, where some things are given priority and importance and
+others are not. In the absence of such a system of value, people simply cannot act. In fact, they
+can’t even perceive, because both action and perception require a goal, and a valid goal is, by
+necessity, something valued. We experience much of our positive emotion in relation to goals.
+We are not happy, technically speaking, unless we see ourselves progressing—and the very idea
+of progression implies value. Worse yet is the fact that the meaning of life without positive
+value is not simply neutral. Because we are vulnerable and mortal, pain and anxiety are an
+integral part of human existence. We must have something to set against the suffering that is
+intrinsic to Being. We must have the meaning inherent in a profound system of value or the
+horror of existence rapidly becomes paramount. Then, nihilism beckons, with its hopelessness
+fn2
+
+and despair.
+So: no value, no meaning. Between value systems, however, there is the possibility of
+conflict. We are thus eternally caught between the most diamantine rock and the hardest of
+places: loss of group-centred belief renders life chaotic, miserable, intolerable; presence of
+group-centred belief makes conflict with other groups inevitable. In the West, we have been
+withdrawing from our tradition-, religion- and even nation-centred cultures, partly to decrease
+the danger of group conflict. But we are increasingly falling prey to the desperation of
+meaninglessness, and that is no improvement at all.
+While writing Maps of Meaning, I was (also) driven by the realization that we can no longer
+afford conflict—certainly not on the scale of the world conflagrations of the twentieth century.
+Our technologies of destruction have become too powerful. The potential consequences of war
+are literally apocalyptic. But we cannot simply abandon our systems of value, our beliefs, our
+cultures, either. I agonized over this apparently intractable problem for months. Was there a
+third way, invisible to me? I dreamt one night during this period that I was suspended in mid-air,
+clinging to a chandelier, many stories above the ground, directly under the dome of a massive
+cathedral. The people on the floor below were distant and tiny. There was a great expanse
+between me and any wall—and even the peak of the dome itself.
+I have learned to pay attention to dreams, not least because of my training as a clinical
+psychologist. Dreams shed light on the dim places where reason itself has yet to voyage. I have
+studied Christianity a fair bit, too (more than other religious traditions, although I am always
+trying to redress this lack). Like others, therefore, I must and do draw more from what I do
+know than from what I do not. I knew that cathedrals were constructed in the shape of a cross,
+and that the point under the dome was the centre of the cross. I knew that the cross was
+simultaneously, the point of greatest suffering, the point of death and transformation, and the
+symbolic centre of the world. That was not somewhere I wanted to be. I managed to get down,
+out of the heights—out of the symbolic sky—back to safe, familiar, anonymous ground. I don’t
+know how. Then, still in my dream, I returned to my bedroom and my bed and tried to return to
+sleep and the peace of unconsciousness. As I relaxed, however, I could feel my body
+transported. A great wind was dissolving me, preparing to propel me back to the cathedral, to
+place me once again at that central point. There was no escape. It was a true nightmare. I forced
+myself awake. The curtains behind me were blowing in over my pillows. Half asleep, I looked
+at the foot of the bed. I saw the great cathedral doors. I shook myself completely awake and
+they disappeared.
+My dream placed me at the centre of Being itself, and there was no escape. It took me months
+to understand what this meant. During this time, I came to a more complete, personal realization
+of what the great stories of the past continually insist upon: the centre is occupied by the
+individual. The centre is marked by the cross, as X marks the spot. Existence at that cross is
+suffering and transformation—and that fact, above all, needs to be voluntarily accepted. It is
+possible to transcend slavish adherence to the group and its doctrines and, simultaneously, to
+avoid the pitfalls of its opposite extreme, nihilism. It is possible, instead, to find sufficient
+meaning in individual consciousness and experience.
+How could the world be freed from the terrible dilemma of conflict, on the one hand, and
+psychological and social dissolution, on the other? The answer was this: through the elevation
+and development of the individual, and through the willingness of everyone to shoulder the
+
+burden of Being and to take the heroic path. We must each adopt as much responsibility as
+possible for individual life, society and the world. We must each tell the truth and repair what is
+in disrepair and break down and recreate what is old and outdated. It is in this manner that we
+can and must reduce the suffering that poisons the world. It’s asking a lot. It’s asking for
+everything. But the alternative—the horror of authoritarian belief, the chaos of the collapsed
+state, the tragic catastrophe of the unbridled natural world, the existential angst and weakness of
+the purposeless individual—is clearly worse.
+I have been thinking and lecturing about such ideas for decades. I have built up a large corpus
+of stories and concepts pertaining to them. I am not for a moment claiming, however, that I am
+entirely correct or complete in my thinking. Being is far more complicated than one person can
+know, and I don’t have the whole story. I’m simply offering the best I can manage.
+In any case, the consequence of all that previous research and thinking was the new essays
+which eventually became this book. My initial idea was to write a short essay on all forty of the
+answers I had provided to Quora. That proposal was accepted by Penguin Random House
+Canada. While writing, however, I cut the essay number to twenty-five and then to sixteen and
+then finally, to the current twelve. I’ve been editing that remainder, with the help and care of my
+official editor (and with the vicious and horribly accurate criticism of Hurwitz, mentioned
+previously) for the past three years.
+It took a long time to settle on a title: 12 Rules for Life: An Antidote to Chaos. Why did that
+one rise up above all others? First and foremost, because of its simplicity. It indicates clearly
+that people need ordering principles, and that chaos otherwise beckons. We require rules,
+standards, values—alone and together. We’re pack animals, beasts of burden. We must bear a
+load, to justify our miserable existence. We require routine and tradition. That’s order. Order can
+become excessive, and that’s not good, but chaos can swamp us, so we drown—and that is also
+not good. We need to stay on the straight and narrow path. Each of the twelve rules of this book
+—and their accompanying essays—therefore provide a guide to being there. “There” is the
+dividing line between order and chaos. That’s where we are simultaneously stable enough,
+exploring enough, transforming enough, repairing enough, and cooperating enough. It’s there
+we find the meaning that justifies life and its inevitable suffering. Perhaps, if we lived properly,
+we would be able to tolerate the weight of our own self-consciousness. Perhaps, if we lived
+properly, we could withstand the knowledge of our own fragility and mortality, without the
+sense of aggrieved victimhood that produces, first, resentment, then envy, and then the desire
+for vengeance and destruction. Perhaps, if we lived properly, we wouldn’t have to turn to
+totalitarian certainty to shield ourselves from the knowledge of our own insufficiency and
+ignorance. Perhaps we could come to avoid those pathways to Hell—and we have seen in the
+terrible twentieth century just how real Hell can be.
+I hope that these rules and their accompanying essays will help people understand what they
+already know: that the soul of the individual eternally hungers for the heroism of genuine Being,
+and that the willingness to take on that responsibility is identical to the decision to live a
+meaningful life.
+If we each live properly, we will collectively flourish.
+Best wishes to you all, as you proceed through these pages.
+Dr. Jordan B. Peterson
+Clinical Psychologist and Professor of Psychology
+
+RULE 1
+
+STAND UP STRAIGHT WITH YOUR SHOULDERS
+BACK
+
+LOBSTERS—AND TERRITORY
+If you are like most people, you don’t often think about lobsters2—unless you’re eating one.
+However, these interesting and delicious crustaceans are very much worth considering. Their
+nervous systems are comparatively simple, with large, easily observable neurons, the magic
+cells of the brain. Because of this, scientists have been able to map the neural circuitry of
+lobsters very accurately. This has helped us understand the structure and function of the brain
+and behaviour of more complex animals, including human beings. Lobsters have more in
+common with you than you might think (particularly when you are feeling crabby—ha ha).
+Lobsters live on the ocean floor. They need a home base down there, a range within which
+they hunt for prey and scavenge around for stray edible bits and pieces of whatever rains down
+from the continual chaos of carnage and death far above. They want somewhere secure, where
+the hunting and the gathering is good. They want a home.
+This can present a problem, since there are many lobsters. What if two of them occupy the
+same territory, at the bottom of the ocean, at the same time, and both want to live there? What if
+there are hundreds of lobsters, all trying to make a living and raise a family, in the same
+crowded patch of sand and refuse?
+Other creatures have this problem, too. When songbirds come north in the spring, for
+example, they engage in ferocious territorial disputes. The songs they sing, so peaceful and
+beautiful to human ears, are siren calls and cries of domination. A brilliantly musical bird is a
+small warrior proclaiming his sovereignty. Take the wren, for example, a small, feisty, insecteating songbird common in North America. A newly arrived wren wants a sheltered place to
+build a nest, away from the wind and rain. He wants it close to food, and attractive to potential
+mates. He also wants to convince competitors for that space to keep their distance.
+Birds—and Territory
+My dad and I designed a house for a wren family when I was ten years old. It looked like a
+Conestoga wagon, and had a front entrance about the size of a quarter. This made it a good
+house for wrens, who are tiny, and not so good for other, larger birds, who couldn’t get in. My
+elderly neighbour had a birdhouse, too, which we built for her at the same time, from an old
+rubber boot. It had an opening large enough for a bird the size of a robin. She was looking
+forward to the day it was occupied.
+A wren soon discovered our birdhouse, and made himself at home there. We could hear his
+lengthy, trilling song, repeated over and over, during the early spring. Once he’d built his nest in
+
+the covered wagon, however, our new avian tenant started carrying small sticks to our
+neighbour’s nearby boot. He packed it so full that no other bird, large or small, could possibly
+get in. Our neighbour was not pleased by this pre-emptive strike, but there was nothing to be
+done about it. “If we take it down,” said my dad, “clean it up, and put it back in the tree, the
+wren will just pack it full of sticks again.” Wrens are small, and they’re cute, but they’re
+merciless.
+I had broken my leg skiing the previous winter—first time down the hill—and had received
+some money from a school insurance policy designed to reward unfortunate, clumsy children. I
+purchased a cassette recorder (a high-tech novelty at the time) with the proceeds. My dad
+suggested that I sit on the back lawn, record the wren’s song, play it back, and watch what
+happened. So, I went out into the bright spring sunlight and taped a few minutes of the wren
+laying furious claim to his territory with song. Then I let him hear his own voice. That little
+bird, one-third the size of a sparrow, began to dive-bomb me and my cassette recorder,
+swooping back and forth, inches from the speaker. We saw a lot of that sort of behaviour, even
+in the absence of the tape recorder. If a larger bird ever dared to sit and rest in any of the trees
+near our birdhouse there was a good chance he would get knocked off his perch by a kamikaze
+wren.
+Now, wrens and lobsters are very different. Lobsters do not fly, sing or perch in trees. Wrens
+have feathers, not hard shells. Wrens can’t breathe underwater, and are seldom served with
+butter. However, they are also similar in important ways. Both are obsessed with status and
+position, for example, like a great many creatures. The Norwegian zoologist and comparative
+psychologist Thorlief Schjelderup-Ebbe observed (back in 1921) that even common barnyard
+chickens establish a “pecking order.”3
+The determination of Who’s Who in the chicken world has important implications for each
+individual bird’s survival, particularly in times of scarcity. The birds that always have priority
+access to whatever food is sprinkled out in the yard in the morning are the celebrity chickens.
+After them come the second-stringers, the hangers-on and wannabes. Then the third-rate
+chickens have their turn, and so on, down to the bedraggled, partially-feathered and badlypecked wretches who occupy the lowest, untouchable stratum of the chicken hierarchy.
+Chickens, like suburbanites, live communally. Songbirds, such as wrens, do not, but they still
+inhabit a dominance hierarchy. It’s just spread out over more territory. The wiliest, strongest,
+healthiest and most fortunate birds occupy prime territory, and defend it. Because of this, they
+are more likely to attract high-quality mates, and to hatch chicks who survive and thrive.
+Protection from wind, rain and predators, as well as easy access to superior food, makes for a
+much less stressed existence. Territory matters, and there is little difference between territorial
+rights and social status. It is often a matter of life and death.
+If a contagious avian disease sweeps through a neighbourhood of well-stratified songbirds, it
+is the least dominant and most stressed birds, occupying the lowest rungs of the bird world, who
+are most likely to sicken and die.4 This is equally true of human neighbourhoods, when bird flu
+viruses and other illnesses sweep across the planet. The poor and stressed always die first, and
+in greater numbers. They are also much more susceptible to non-infectious diseases, such as
+cancer, diabetes and heart disease. When the aristocracy catches a cold, as it is said, the working
+class dies of pneumonia.
+Because territory matters, and because the best locales are always in short supply, territory-
+
+seeking among animals produces conflict. Conflict, in turn, produces another problem: how to
+win or lose without the disagreeing parties incurring too great a cost. This latter point is
+particularly important. Imagine that two birds engage in a squabble about a desirable nesting
+area. The interaction can easily degenerate into outright physical combat. Under such
+circumstances, one bird, usually the largest, will eventually win—but even the victor may be
+hurt by the fight. That means a third bird, an undamaged, canny bystander, can move in,
+opportunistically, and defeat the now-crippled victor. That is not at all a good deal for the first
+two birds.
+Conflict—and Territory
+Over the millennia, animals who must co-habit with others in the same territories have in
+consequence learned many tricks to establish dominance, while risking the least amount of
+possible damage. A defeated wolf, for example, will roll over on its back, exposing its throat to
+the victor, who will not then deign to tear it out. The now-dominant wolf may still require a
+future hunting partner, after all, even one as pathetic as his now-defeated foe. Bearded dragons,
+remarkable social lizards, wave their front legs peaceably at one another to indicate their wish
+for continued social harmony. Dolphins produce specialized sound pulses while hunting and
+during other times of high excitement to reduce potential conflict among dominant and
+subordinate group members. Such behavior is endemic in the community of living things.
+Lobsters, scuttling around on the ocean floor, are no exception.5 If you catch a few dozen,
+and transport them to a new location, you can observe their status-forming rituals and
+techniques. Each lobster will first begin to explore the new territory, partly to map its details,
+and partly to find a good place for shelter. Lobsters learn a lot about where they live, and they
+remember what they learn. If you startle one near its nest, it will quickly zip back and hide
+there. If you startle it some distance away, however, it will immediately dart towards the nearest
+suitable shelter, previously identified and now remembered.
+A lobster needs a safe hiding place to rest, free from predators and the forces of nature.
+Furthermore, as lobsters grow, they moult, or shed their shells, which leaves them soft and
+vulnerable for extended periods of time. A burrow under a rock makes a good lobster home,
+particularly if it is located where shells and other detritus can be dragged into place to cover the
+entrance, once the lobster is snugly ensconced inside. However, there may be only a small
+number of high-quality shelters or hiding places in each new territory. They are scarce and
+valuable. Other lobsters continually seek them out.
+This means that lobsters often encounter one another when out exploring. Researchers have
+demonstrated that even a lobster raised in isolation knows what to do when such a thing
+happens.6 It has complex defensive and aggressive behaviours built right into its nervous
+system. It begins to dance around, like a boxer, opening and raising its claws, moving
+backward, forward, and side to side, mirroring its opponent, waving its opened claws back and
+forth. At the same time, it employs special jets under its eyes to direct streams of liquid at its
+opponent. The liquid spray contains a mix of chemicals that tell the other lobster about its size,
+sex, health, and mood.
+Sometimes one lobster can tell immediately from the display of claw size that it is much
+smaller than its opponent, and will back down without a fight. The chemical information
+
+exchanged in the spray can have the same effect, convincing a less healthy or less aggressive
+lobster to retreat. That’s dispute resolution Level 1.7 If the two lobsters are very close in size
+and apparent ability, however, or if the exchange of liquid has been insufficiently informative,
+they will proceed to dispute resolution Level 2. With antennae whipping madly and claws
+folded downward, one will advance, and the other retreat. Then the defender will advance, and
+the aggressor retreat. After a couple of rounds of this behaviour, the more nervous of the
+lobsters may feel that continuing is not in his best interest. He will flick his tail reflexively, dart
+backwards, and vanish, to try his luck elsewhere. If neither blinks, however, the lobsters move
+to Level 3, which involves genuine combat.
+This time, the now enraged lobsters come at each other viciously, with their claws extended,
+to grapple. Each tries to flip the other on its back. A successfully flipped lobster will conclude
+that its opponent is capable of inflicting serious damage. It generally gives up and leaves
+(although it harbours intense resentment and gossips endlessly about the victor behind its back).
+If neither can overturn the other—or if one will not quit despite being flipped—the lobsters
+move to Level 4. Doing so involves extreme risk, and is not something to be engaged in without
+forethought: one or both lobsters will emerge damaged from the ensuing fray, perhaps fatally.
+The animals advance on each other, with increasing speed. Their claws are open, so they can
+grab a leg, or antenna, or an eye-stalk, or anything else exposed and vulnerable. Once a body
+part has been successfully grabbed, the grabber will tail-flick backwards, sharply, with claw
+clamped firmly shut, and try to tear it off. Disputes that have escalated to this point typically
+create a clear winner and loser. The loser is unlikely to survive, particularly if he or she remains
+in the territory occupied by the winner, now a mortal enemy.
+In the aftermath of a losing battle, regardless of how aggressively a lobster has behaved, it
+becomes unwilling to fight further, even against another, previously defeated opponent. A
+vanquished competitor loses confidence, sometimes for days. Sometimes the defeat can have
+even more severe consequences. If a dominant lobster is badly defeated, its brain basically
+dissolves. Then it grows a new, subordinate’s brain—one more appropriate to its new, lowly
+position.8 Its original brain just isn’t sophisticated to manage the transformation from king to
+bottom dog without virtually complete dissolution and regrowth. Anyone who has experienced
+a painful transformation after a serious defeat in romance or career may feel some sense of
+kinship with the once successful crustacean.
+The Neurochemistry of Defeat and Victory
+A lobster loser’s brain chemistry differs importantly from that of a lobster winner. This is
+reflected in their relative postures. Whether a lobster is confident or cringing depends on the
+ratio of two chemicals that modulate communication between lobster neurons: serotonin and
+octopamine. Winning increases the ratio of the former to the latter.
+A lobster with high levels of serotonin and low levels of octopamine is a cocky, strutting sort
+of shellfish, much less likely to back down when challenged. This is because serotonin helps
+regulate postural flexion. A flexed lobster extends its appendages so that it can look tall and
+dangerous, like Clint Eastwood in a spaghetti Western. When a lobster that has just lost a battle
+is exposed to serotonin, it will stretch itself out, advance even on former victors, and fight
+longer and harder.9 The drugs prescribed to depressed human beings, which are selective
+
+serotonin reuptake inhibitors, have much the same chemical and behavioural effect. In one of
+the more staggering demonstrations of the evolutionary continuity of life on Earth, Prozac even
+cheers up lobsters.10
+High serotonin/low octopamine characterizes the victor. The opposite neurochemical
+configuration, a high ratio of octopamine to serotonin, produces a defeated-looking, scrunchedup, inhibited, drooping, skulking sort of lobster, very likely to hang around street corners, and to
+vanish at the first hint of trouble. Serotonin and octopamine also regulate the tail-flick reflex,
+which serves to propel a lobster rapidly backwards when it needs to escape. Less provocation is
+necessary to trigger that reflex in a defeated lobster. You can see an echo of that in the
+heightened startle reflex characteristic of the soldier or battered child with post-traumatic stress
+disorder.
+The Principle of Unequal Distribution
+When a defeated lobster regains its courage and dares to fight again it is more likely to lose
+again than you would predict, statistically, from a tally of its previous fights. Its victorious
+opponent, on the other hand, is more likely to win. It’s winner-take-all in the lobster world, just
+as it is in human societies, where the top 1 percent have as much loot as the bottom 50 percent11
+—and where the richest eighty-five people have as much as the bottom three and a half billion.
+That same brutal principle of unequal distribution applies outside the financial domain—
+indeed, anywhere that creative production is required. The majority of scientific papers are
+published by a very small group of scientists. A tiny proportion of musicians produces almost
+all the recorded commercial music. Just a handful of authors sell all the books. A million and a
+half separately titled books (!) sell each year in the US. However, only five hundred of these sell
+more than a hundred thousand copies.12 Similarly, just four classical composers (Bach,
+Beethoven, Mozart, and Tchaikovsky) wrote almost all the music played by modern orchestras.
+Bach, for his part, composed so prolifically that it would take decades of work merely to handcopy his scores, yet only a small fraction of this prodigious output is commonly performed. The
+same thing applies to the output of the other three members of this group of hyper-dominant
+composers: only a small fraction of their work is still widely played. Thus, a small fraction of
+the music composed by a small fraction of all the classical composers who have ever composed
+makes up almost all the classical music that the world knows and loves.
+This principle is sometimes known as Price’s law, after Derek J. de Solla Price,13 the
+researcher who discovered its application in science in 1963. It can be modelled using an
+approximately L-shaped graph, with number of people on the vertical axis, and productivity or
+resources on the horizontal. The basic principle had been discovered much earlier. Vilfredo
+Pareto (1848–1923), an Italian polymath, noticed its applicability to wealth distribution in the
+early twentieth century, and it appears true for every society ever studied, regardless of
+governmental form. It also applies to the population of cities (a very small number have almost
+all the people), the mass of heavenly bodies (a very small number hoard all the matter), and the
+frequency of words in a language (90 percent of communication occurs using just 500 words),
+among many other things. Sometimes it is known as the Matthew Principle (Matthew 25:29),
+derived from what might be the harshest statement ever attributed to Christ: “to those who have
+everything, more will be given; from those who have nothing, everything will be taken.”
+
+You truly know you are the Son of God when your dicta apply even to crustaceans.
+Back to the fractious shellfish: it doesn’t take that long before lobsters, testing each other out,
+learn who can be messed with and who should be given a wide berth—and once they have
+learned, the resultant hierarchy is exceedingly stable. All a victor needs to do, once he has won,
+is to wiggle his antennae in a threatening manner, and a previous opponent will vanish in a puff
+of sand before him. A weaker lobster will quit trying, accept his lowly status, and keep his legs
+attached to his body. The top lobster, by contrast—occupying the best shelter, getting some
+good rest, finishing a good meal—parades his dominance around his territory, rousting
+subordinate lobsters from their shelters at night, just to remind them who’s their daddy.
+All the Girls
+The female lobsters (who also fight hard for territory during the explicitly maternal stages of
+their existence14) identify the top guy quickly, and become irresistibly attracted to him. This is
+brilliant strategy, in my estimation. It’s also one used by females of many different species,
+including humans. Instead of undertaking the computationally difficult task of identifying the
+best man, the females outsource the problem to the machine-like calculations of the dominance
+hierarchy. They let the males fight it out and peel their paramours from the top. This is very
+much what happens with stock-market pricing, where the value of any particular enterprise is
+determined through the competition of all.
+When the females are ready to shed their shells and soften up a bit, they become interested in
+mating. They start hanging around the dominant lobster’s pad, spraying attractive scents and
+aphrodisiacs towards him, trying to seduce him. His aggression has made him successful, so
+he’s likely to react in a dominant, irritable manner. Furthermore, he’s large, healthy and
+powerful. It’s no easy task to switch his attention from fighting to mating. (If properly charmed,
+however, he will change his behaviour towards the female. This is the lobster equivalent of Fifty
+Shades of Grey, the fastest-selling paperback of all time, and the eternal Beauty-and-the-Beast
+plot of archetypal romance. This is the pattern of behaviour continually represented in the
+sexually explicit literary fantasies that are as popular among women as provocative images of
+naked women are among men.)
+It should be pointed out, however, that sheer physical power is an unstable basis on which to
+found lasting dominance, as the Dutch primatologist Frans de Waal15 has taken pains to
+demonstrate. Among the chimp troupes he studied, males who were successful in the longer
+term had to buttress their physical prowess with more sophisticated attributes. Even the most
+brutal chimp despot can be taken down, after all, by two opponents, each three-quarters as
+mean. In consequence, males who stay on top longer are those who form reciprocal coalitions
+with their lower-status compatriots, and who pay careful attention to the troupe’s females and
+their infants. The political ploy of baby-kissing is literally millions of years old. But lobsters are
+still comparatively primitive, so the bare plot elements of Beast and Beauty suffice for them.
+Once the Beast has been successfully charmed, the successful female (lobster) will disrobe,
+shedding her shell, making herself dangerously soft, vulnerable, and ready to mate. At the right
+moment, the male, now converted into a careful lover, deposits a packet of sperm into the
+appropriate receptacle. Afterward, the female hangs around, and hardens up for a couple of
+weeks (another phenomenon not entirely unknown among human beings). At her leisure, she
+
+returns to her own domicile, laden with fertilized eggs. At this point another female will attempt
+the same thing—and so on. The dominant male, with his upright and confident posture, not only
+gets the prime real estate and easiest access to the best hunting grounds. He also gets all the
+girls. It is exponentially more worthwhile to be successful, if you are a lobster, and male.
+Why is all this relevant? For an amazing number of reasons, apart from those that are
+comically obvious. First, we know that lobsters have been around, in one form or another, for
+more than 350 million years.16 This is a very long time. Sixty-five million years ago, there were
+still dinosaurs. That is the unimaginably distant past to us. To the lobsters, however, dinosaurs
+were the nouveau riche, who appeared and disappeared in the flow of near-eternal time. This
+means that dominance hierarchies have been an essentially permanent feature of the
+environment to which all complex life has adapted. A third of a billion years ago, brains and
+nervous systems were comparatively simple. Nonetheless, they already had the structure and
+neurochemistry necessary to process information about status and society. The importance of
+this fact can hardly be overstated.
+The Nature of Nature
+It is a truism of biology that evolution is conservative. When something evolves, it must build
+upon what nature has already produced. New features may be added, and old features may
+undergo some alteration, but most things remain the same. It is for this reason that the wings of
+bats, the hands of human beings, and the fins of whales look astonishingly alike in their skeletal
+form. They even have the same number of bones. Evolution laid down the cornerstones for
+basic physiology long ago.
+Now evolution works, in large part, through variation and natural selection. Variation exists
+for many reasons, including gene-shuffling (to put it simply) and random mutation. Individuals
+vary within a species for such reasons. Nature chooses from among them, across time. That
+theory, as stated, appears to account for the continual alteration of life-forms over the eons. But
+there’s an additional question lurking under the surface: what exactly is the “nature” in “natural
+selection”? What exactly is “the environment” to which animals adapt? We make many
+assumptions about nature—about the environment—and these have consequences. Mark Twain
+once said, “It’s not what we don’t know that gets us in trouble. It’s what we know for sure that
+just ain’t so.”
+First, it is easy to assume that “nature” is something with a nature—something static. But it’s
+not: at least not in any simple sense. It’s static and dynamic, at the same time. The environment
+—the nature that selects—itself transforms. The famous yin and yang symbols of the Taoists
+capture this beautifully. Being, for the Taoists—reality itself—is composed of two opposing
+principles, often translated as feminine and masculine, or even more narrowly as female and
+male. However, yin and yang are more accurately understood as chaos and order. The Taoist
+symbol is a circle enclosing twin serpents, head to tail. The black serpent, chaos, has a white dot
+in its head. The white serpent, order, has a black dot in its head. This is because chaos and order
+are interchangeable, as well as eternally juxtaposed. There is nothing so certain that it cannot
+vary. Even the sun itself has its cycles of instability. Likewise, there is nothing so mutable that it
+cannot be fixed. Every revolution produces a new order. Every death is, simultaneously, a
+metamorphosis.
+
+Considering nature as purely static produces serious errors of apprehension. Nature “selects.”
+The idea of selects contains implicitly nested within it the idea of fitness. It is “fitness” that is
+“selected.” Fitness, roughly speaking, is the probability that a given organism will leave
+offspring (will propagate its genes through time). The “fit” in “fitness” is therefore the matching
+of organismal attribute to environmental demand. If that demand is conceptualized as static—if
+nature is conceptualized as eternal and unchanging—then evolution is a never-ending series of
+linear improvements, and fitness is something that can be ever more closely approximated
+across time. The still-powerful Victorian idea of evolutionary progress, with man at the
+pinnacle, is a partial consequence of this model of nature. It produces the erroneous notion that
+there is a destination of natural selection (increasing fitness to the environment), and that it can
+be conceptualized as a fixed point.
+But nature, the selecting agent, is not a static selector—not in any simple sense. Nature
+dresses differently for each occasion. Nature varies like a musical score—and that, in part,
+explains why music produces its deep intimations of meaning. As the environment supporting a
+species transforms and changes, the features that make a given individual successful in
+surviving and reproducing also transform and change. Thus, the theory of natural selection does
+not posit creatures matching themselves ever more precisely to a template specified by the
+world. It is more that creatures are in a dance with nature, albeit one that is deadly. “In my
+kingdom,” as the Red Queen tells Alice in Wonderland, “you have to run as fast as you can just
+to stay in the same place.” No one standing still can triumph, no matter how well constituted.
+Nature is not simply dynamic, either. Some things change quickly, but they are nested within
+other things that change less quickly (music frequently models this, too). Leaves change more
+quickly than trees, and trees more quickly than forests. Weather changes faster than climate. If it
+wasn’t this way, then the conservatism of evolution would not work, as the basic morphology of
+arms and hands would have to change as fast as the length of arm bones and the function of
+fingers. It’s chaos, within order, within chaos, within higher order. The order that is most real is
+the order that is most unchanging—and that is not necessarily the order that is most easily seen.
+The leaf, when perceived, might blind the observer to the tree. The tree can blind him to the
+forest. And some things that are most real (such as the ever-present dominance hierarchy)
+cannot be “seen” at all.
+It is also a mistake to conceptualize nature romantically. Rich, modern city-dwellers,
+surrounded by hot, baking concrete, imagine the environment as something pristine and
+paradisal, like a French impressionist landscape. Eco-activists, even more idealistic in their
+viewpoint, envision nature as harmoniously balanced and perfect, absent the disruptions and
+depredations of mankind. Unfortunately, “the environment” is also elephantiasis and guinea
+worms (don’t ask), anopheles mosquitoes and malaria, starvation-level droughts, AIDS and the
+Black Plague. We don’t fantasize about the beauty of these aspects of nature, although they are
+just as real as their Edenic counterparts. It is because of the existence of such things, of course,
+that we attempt to modify our surroundings, protecting our children, building cities and
+transportation systems and growing food and generating power. If Mother Nature wasn’t so
+hell-bent on our destruction, it would be easier for us to exist in simple harmony with her
+dictates.
+And this brings us to a third erroneous concept: that nature is something strictly segregated
+from the cultural constructs that have emerged within it. The order within the chaos and order of
+
+Being is all the more “natural” the longer it has lasted. This is because “nature” is “what
+selects,” and the longer a feature has existed the more time it has had to be selected—and to
+shape life. It does not matter whether that feature is physical and biological, or social and
+cultural. All that matters, from a Darwinian perspective, is permanence—and the dominance
+hierarchy, however social or cultural it might appear, has been around for some half a billion
+years. It’s permanent. It’s real. The dominance hierarchy is not capitalism. It’s not communism,
+either, for that matter. It’s not the military-industrial complex. It’s not the patriarchy—that
+disposable, malleable, arbitrary cultural artefact. It’s not even a human creation; not in the most
+profound sense. It is instead a near-eternal aspect of the environment, and much of what is
+blamed on these more ephemeral manifestations is a consequence of its unchanging existence.
+We (the sovereign we, the we that has been around since the beginning of life) have lived in a
+dominance hierarchy for a long, long time. We were struggling for position before we had skin,
+or hands, or lungs, or bones. There is little more natural than culture. Dominance hierarchies are
+older than trees.
+The part of our brain that keeps track of our position in the dominance hierarchy is therefore
+exceptionally ancient and fundamental.17 It is a master control system, modulating our
+perceptions, values, emotions, thoughts and actions. It powerfully affects every aspect of our
+Being, conscious and unconscious alike. This is why, when we are defeated, we act very much
+like lobsters who have lost a fight. Our posture droops. We face the ground. We feel threatened,
+hurt, anxious and weak. If things do not improve, we become chronically depressed. Under such
+conditions, we can’t easily put up the kind of fight that life demands, and we become easy
+targets for harder-shelled bullies. And it is not only the behavioural and experiential similarities
+that are striking. Much of the basic neurochemistry is the same.
+Consider serotonin, the chemical that governs posture and escape in the lobster. Low-ranking
+lobsters produce comparatively low levels of serotonin. This is also true of low-ranking human
+beings (and those low levels decrease more with each defeat). Low serotonin means decreased
+confidence. Low serotonin means more response to stress and costlier physical preparedness for
+emergency—as anything whatsoever may happen, at any time, at the bottom of the dominance
+hierarchy (and rarely something good). Low serotonin means less happiness, more pain and
+anxiety, more illness, and a shorter lifespan—among humans, just as among crustaceans. Higher
+spots in the dominance hierarchy, and the higher serotonin levels typical of those who inhabit
+them, are characterized by less illness, misery and death, even when factors such as absolute
+income—or number of decaying food scraps—are held constant. The importance of this can
+hardly be overstated.
+Top and Bottom
+There is an unspeakably primordial calculator, deep within you, at the very foundation of your
+brain, far below your thoughts and feelings. It monitors exactly where you are positioned in
+society—on a scale of one to ten, for the sake of argument. If you’re a number one, the highest
+level of status, you’re an overwhelming success. If you’re male, you have preferential access to
+the best places to live and the highest-quality food. People compete to do you favours. You have
+limitless opportunity for romantic and sexual contact. You are a successful lobster, and the most
+desirable females line up and vie for your attention.18
+
+If you’re female, you have access to many high-quality suitors: tall, strong and symmetrical;
+creative, reliable, honest and generous. And, like your dominant male counterpart, you will
+compete ferociously, even pitilessly, to maintain or improve your position in the equally
+competitive female mating hierarchy. Although you are less likely to use physical aggression to
+do so, there are many effective verbal tricks and strategies at your disposal, including the
+disparaging of opponents, and you may well be expert at their use.
+If you are a low-status ten, by contrast, male or female, you have nowhere to live (or nowhere
+good). Your food is terrible, when you’re not going hungry. You’re in poor physical and mental
+condition. You’re of minimal romantic interest to anyone, unless they are as desperate as you.
+You are more likely to fall ill, age rapidly, and die young, with few, if any, to mourn you.19 Even
+money itself may prove of little use. You won’t know how to use it, because it is difficult to use
+money properly, particularly if you are unfamiliar with it. Money will make you liable to the
+dangerous temptations of drugs and alcohol, which are much more rewarding if you have been
+deprived of pleasure for a long period. Money will also make you a target for predators and
+psychopaths, who thrive on exploiting those who exist on the lower rungs of society. The
+bottom of the dominance hierarchy is a terrible, dangerous place to be.
+The ancient part of your brain specialized for assessing dominance watches how you are
+treated by other people. On that evidence, it renders a determination of your value and assigns
+you a status. If you are judged by your peers as of little worth, the counter restricts serotonin
+availability. That makes you much more physically and psychologically reactive to any
+circumstance or event that might produce emotion, particularly if it is negative. You need that
+reactivity. Emergencies are common at the bottom, and you must be ready to survive.
+Unfortunately, that physical hyper-response, that constant alertness, burns up a lot of precious
+energy and physical resources. This response is really what everyone calls stress, and it is by no
+means only or even primarily psychological. It’s a reflection of the genuine constraints of
+unfortunate circumstances. When operating at the bottom, the ancient brain counter assumes
+that even the smallest unexpected impediment might produce an uncontrollable chain of
+negative events, which will have to be handled alone, as useful friends are rare indeed, on
+society’s fringes. You will therefore continually sacrifice what you could otherwise physically
+store for the future, using it up on heightened readiness and the possibility of immediate
+panicked action in the present. When you don’t know what to do, you must be prepared to do
+anything and everything, in case it becomes necessary. You’re sitting in your car with the gas
+and brake pedals both punched to the mat. Too much of that and everything falls apart. The
+ancient counter will even shut down your immune system, expending the energy and resources
+required for future health now, during the crises of the present. It will render you impulsive,20 so
+that you will jump, for example, at any short-term mating opportunities, or any possibilities of
+pleasure, no matter how sub-par, disgraceful or illegal. It will leave you far more likely to live,
+or die, carelessly, for a rare opportunity at pleasure, when it manifests itself. The physical
+demands of emergency preparedness will wear you down in every way.21
+If you have a high status, on the other hand, the counter’s cold, pre-reptilian mechanics
+assume that your niche is secure, productive and safe, and that you are well buttressed with
+social support. It thinks the chance that something will damage you is low and can be safely
+discounted. Change might be opportunity, instead of disaster. The serotonin flows plentifully.
+This renders you confident and calm, standing tall and straight, and much less on constant alert.
+
+Because your position is secure, the future is likely to be good for you. It’s worthwhile to think
+in the long term and plan for a better tomorrow. You don’t need to grasp impulsively at
+whatever crumbs come your way, because you can realistically expect good things to remain
+available. You can delay gratification, without forgoing it forever. You can afford to be a
+reliable and thoughtful citizen.
+Malfunction
+Sometimes, however, the counter mechanism can go wrong. Erratic habits of sleeping and
+eating can interfere with its function. Uncertainty can throw it for a loop. The body, with its
+various parts, needs to function like a well-rehearsed orchestra. Every system must play its role
+properly, and at exactly the right time, or noise and chaos ensue. It is for this reason that routine
+is so necessary. The acts of life we repeat every day need to be automatized. They must be
+turned into stable and reliable habits, so they lose their complexity and gain predictability and
+simplicity. This can be perceived most clearly in the case of small children, who are delightful
+and comical and playful when their sleeping and eating schedules are stable, and horrible and
+whiny and nasty when they are not.
+It is for such reasons that I always ask my clinical clients first about sleep. Do they wake up
+in the morning at approximately the time the typical person wakes up, and at the same time
+every day? If the answer is no, fixing that is the first thing I recommend. It doesn’t matter so
+much if they go to bed at the same time each evening, but waking up at a consistent hour is a
+necessity. Anxiety and depression cannot be easily treated if the sufferer has unpredictable daily
+routines. The systems that mediate negative emotion are tightly tied to the properly cyclical
+circadian rhythms.
+The next thing I ask about is breakfast. I counsel my clients to eat a fat and protein-heavy
+breakfast as soon as possible after they awaken (no simple carbohydrates, no sugars, as they are
+digested too rapidly, and produce a blood-sugar spike and rapid dip). This is because anxious
+and depressed people are already stressed, particularly if their lives have not been under control
+for a good while. Their bodies are therefore primed to hypersecrete insulin, if they engage in
+any complex or demanding activity. If they do so after fasting all night and before eating, the
+excess insulin in their bloodstream will mop up all their blood sugar. Then they become
+hypoglycemic and psycho-physiologically unstable.22 All day. Their systems cannot be reset
+until after more sleep. I have had many clients whose anxiety was reduced to subclinical levels
+merely because they started to sleep on a predictable schedule and eat breakfast.
+Other bad habits can also interfere with the counter’s accuracy. Sometimes this happens
+directly, for poorly understood biological reasons, and sometimes it happens because those
+habits initiate a complex positive feedback loop. A positive feedback loop requires an input
+detector, an amplifier, and some form of output. Imagine a signal picked up by the input
+detector, amplified, and then emitted, in amplified form. So far, so good. The trouble starts
+when the input detector detects that output, and runs it through the system again, amplifying and
+emitting it again. A few rounds of intensification and things get dangerously out of control.
+Most people have been subject to the deafening howling of feedback at a concert, when the
+sound system squeals painfully. The microphone sends a signal to the speakers. The speakers
+emit the signal. The signal can be picked up by the microphone and sent through the system
+
+again, if it’s too loud or too close to the speakers. The sound rapidly amplifies to unbearable
+levels, sufficient to destroy the speakers, if it continues.
+The same destructive loop happens within people’s lives. Much of the time, when it happens,
+we label it mental illness, even though it’s not only or even at all occurring inside people’s
+psyches. Addiction to alcohol or another mood-altering drug is a common positive-feedback
+process. Imagine a person who enjoys alcohol, perhaps a bit too much. He has a quick three or
+four drinks. His blood alcohol level spikes sharply. This can be extremely exhilarating,
+particularly for someone who has a genetic predisposition to alcoholism.23 But it only occurs
+while blood alcohol levels are actively rising, and that only continues if the drinker keeps
+drinking. When he stops, not only does his blood alcohol level plateau and then start to sink, but
+his body begins to produce a variety of toxins, as it metabolizes the ethanol already consumed.
+He also starts to experience alcohol withdrawal, as the anxiety systems that were suppressed
+during intoxication start to hyper-respond. A hangover is alcohol withdrawal (which quite
+frequently kills withdrawing alcoholics), and it starts all too soon after drinking ceases. To
+continue the warm glow, and stave off the unpleasant aftermath, the drinker may just continue to
+drink, until all the liquor in his house is consumed, the bars are closed and his money is spent.
+The next day, the drinker wakes up, badly hungover. So far, this is just unfortunate. The real
+trouble starts when he discovers that his hangover can be “cured” with a few more drinks the
+morning after. Such a cure is, of course, temporary. It merely pushes the withdrawal symptoms
+a bit further into the future. But that might be what is required, in the short term, if the misery is
+sufficiently acute. So now he has learned to drink to cure his hangover. When the medication
+causes the disease, a positive feedback loop has been established. Alcoholism can quickly
+emerge under such conditions.
+Something similar often happens to people who develop an anxiety disorder, such as
+agoraphobia. People with agoraphobia can become so overwhelmed with fear that they will no
+longer leave their homes. Agoraphobia is the consequence of a positive feedback loop. The first
+event that precipitates the disorder is often a panic attack. The sufferer is typically a middleaged woman who has been too dependent on other people. Perhaps she went immediately from
+over-reliance on her father to a relationship with an older and comparatively dominant
+boyfriend or husband, with little or no break for i</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-sm-7 footer-copyright">
+        <i>
+            Free ebooks since 2009.
+            <a class="footer-mailto" href="mailto: support@bookmail.org">
+                support@bookmail.org            </a>
+        </i>
+
+        <span class="hidden-xs" style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+        <span class="hidden-xs" style="margin:0 0 0 15px; position: relative;"> <a href="/blog/">Blog</a></span>
+    </div>
+
+    <div class="col-sm-5">
+        <div class="pull-right footer-nav-right" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="visible-xs-block"><a href="/faq.php">FAQ</a></li>
+                <li class="visible-xs-block"><a href="/blog/">Blog</a></li>
+                                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup" style="white-space: nowrap;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu language-list">
+                        <li><a href="//1lib.in/book/3485511/a49963/?wrongHash">English</a></li><li><a href="//ru.1lib.in/book/3485511/a49963/?wrongHash">Русский</a></li><li><a href="//es.1lib.in/book/3485511/a49963/?wrongHash">Español</a></li><li><a href="//it.1lib.in/book/3485511/a49963/?wrongHash">Italiano</a></li><li><a href="//el.1lib.in/book/3485511/a49963/?wrongHash">ελληνικά</a></li><li><a href="//ar.1lib.in/book/3485511/a49963/?wrongHash">اللغة العربية</a></li><li><a href="//id.1lib.in/book/3485511/a49963/?wrongHash">Bahasa Indonesia</a></li><li><a href="//my.1lib.in/book/3485511/a49963/?wrongHash">Bahasa Malaysia</a></li><li><a href="//in.1lib.in/book/3485511/a49963/?wrongHash">हिन्दी</a></li><li><a href="//de.1lib.in/book/3485511/a49963/?wrongHash">Deutsch</a></li><li><a href="//fr.1lib.in/book/3485511/a49963/?wrongHash">Français</a></li><li><a href="//pt.1lib.in/book/3485511/a49963/?wrongHash">Português</a></li><li><a href="//ua.1lib.in/book/3485511/a49963/?wrongHash">Українська</a></li><li><a href="//pl.1lib.in/book/3485511/a49963/?wrongHash">Polski</a></li><li><a href="//zh.1lib.in/book/3485511/a49963/?wrongHash">汉语</a></li><li><a href="//jp.1lib.in/book/3485511/a49963/?wrongHash">日本語</a></li><li><a href="//vn.1lib.in/book/3485511/a49963/?wrongHash">Tiếng Việt</a></li><li><a href="//az.1lib.in/book/3485511/a49963/?wrongHash">Azərbaycan Dili</a></li><li><a href="//am.1lib.in/book/3485511/a49963/?wrongHash">Հայոց լեզու</a></li><li><a href="//th.1lib.in/book/3485511/a49963/?wrongHash">ภาษาไทย</a></li><li><a href="//tr.1lib.in/book/3485511/a49963/?wrongHash">Türk Dili</a></li><li><a href="//ge.1lib.in/book/3485511/a49963/?wrongHash">ქართველი</a></li><li><a href="//bd.1lib.in/book/3485511/a49963/?wrongHash">বাংলা</a></li><li><a href="//af.1lib.in/book/3485511/a49963/?wrongHash">پښتو</a></li><li><a href="//te.1lib.in/book/3485511/a49963/?wrongHash">తెలుగు</a></li><li><a href="//ur.1lib.in/book/3485511/a49963/?wrongHash">اردو</a></li><li><a href="//kr.1lib.in/book/3485511/a49963/?wrongHash">한국어</a></li><li><a href="//rs.1lib.in/book/3485511/a49963/?wrongHash">Srpsku</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="modal fade" id="zlibrary-modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header hidden">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body" style="position: relative; min-height: 80px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="zlibrary-modal-styled" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header hidden">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h1 class="modal-title"></h1>
+                    </div>
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="zlibrary-modal-auth" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ggAdditionalHtml -->
+        <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe><script></script>        <!-- /ggAdditionalHtml -->
+        
+                
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+    </body>
+</html>
+
