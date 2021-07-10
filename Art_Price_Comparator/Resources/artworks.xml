@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">URL</Data></Cell>
+			<Cell><Data ss:Type="String">SELLER</Data></Cell>
+			<Cell><Data ss:Type="String">LOCATION</Data></Cell>
+			<Cell><Data ss:Type="String">WEBSITE</Data></Cell>
+			<Cell><Data ss:Type="String">SELLER_ID</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/belgium/1744/art-center-horus</Data></Cell>
+			<Cell><Data ss:Type="String">Art Center Horus</Data></Cell>
+			<Cell><Data ss:Type="String">Belgium</Data></Cell>
+			<Cell><Data ss:Type="String">https://artcenterhorus.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">75</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/belgium/339/mazel-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Mazel Galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Belgium</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.mazelgalerie.com</Data></Cell>
+			<Cell><Data ss:Type="Number">36</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/belgium/380/galerie-martine-ehmer</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Martine Ehmer</Data></Cell>
+			<Cell><Data ss:Type="String">Belgium</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">30</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/belgium/5580/yellow-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Yellow Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Belgium</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">17</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/belgium/601/macadam-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Macadam Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Belgium</Data></Cell>
+			<Cell><Data ss:Type="String">http://macadamgallery.com</Data></Cell>
+			<Cell><Data ss:Type="Number">103</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/belgium/7158/label-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Label Galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Belgium</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.labelgalerie.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">16</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/belgium/8067/yellow-road-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Yellow Road Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Belgium</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/yellowroadgallery</Data></Cell>
+			<Cell><Data ss:Type="Number">98</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1014/bear-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">BEAR GALERIE</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.beargalerie.com</Data></Cell>
+			<Cell><Data ss:Type="Number">15</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1039/galerie-jpht</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie JPHT</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galeriejpht.com</Data></Cell>
+			<Cell><Data ss:Type="Number">64</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1065/galerie-jean-louis-cleret</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Jean-Louis Cléret</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.jeanlouiscleret.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">114</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1066/galerie-vieceli</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Vieceli</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://galerievieceli.com</Data></Cell>
+			<Cell><Data ss:Type="Number">70</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1105/outsiders</Data></Cell>
+			<Cell><Data ss:Type="String">Outsiders</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.outsidersgalerie.com</Data></Cell>
+			<Cell><Data ss:Type="Number">31</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1129/arts-range</Data></Cell>
+			<Cell><Data ss:Type="String">Arts Range</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.artsrange.com</Data></Cell>
+			<Cell><Data ss:Type="Number">9</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1132/artclub</Data></Cell>
+			<Cell><Data ss:Type="String">ARTCLUB</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/artclubgalleryparis</Data></Cell>
+			<Cell><Data ss:Type="Number">79</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1150/galerie28-com</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie28.com</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerie28.com</Data></Cell>
+			<Cell><Data ss:Type="Number">13</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1154/estelle-feraud-toulouseart</Data></Cell>
+			<Cell><Data ss:Type="String">Estelle Féraud ToulouseArt</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerietoulouseart.com</Data></Cell>
+			<Cell><Data ss:Type="Number">58</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1187/art-five-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">ART FIVE Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.artfive.fr/art_five_gallery_galeries.html</Data></Cell>
+			<Cell><Data ss:Type="Number">49</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1190/loeil-ouvert</Data></Cell>
+			<Cell><Data ss:Type="String">L'œil ouvert</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.loeilouvert.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">43</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1202/galerie-lithium</Data></Cell>
+			<Cell><Data ss:Type="String">GALERIE LITHIUM</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">25</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1217/caroline-vis-art-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Caroline Vis Art Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.carolinevis.com</Data></Cell>
+			<Cell><Data ss:Type="Number">108</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1268/lezarts-urbains</Data></Cell>
+			<Cell><Data ss:Type="String">Lezarts Urbains</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.lezarts-urbains-editions.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1323/galerie-serventi</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Serventi</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/galerieserventi/</Data></Cell>
+			<Cell><Data ss:Type="Number">44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1325/atelier-audibert</Data></Cell>
+			<Cell><Data ss:Type="String">ATELIER AUDIBERT</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.audibert-encadrement-galerie.fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">94</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1341/ground-effect</Data></Cell>
+			<Cell><Data ss:Type="String">Ground Effect</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.groundeffect.fr</Data></Cell>
+			<Cell><Data ss:Type="Number">71</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1356/lacademie</Data></Cell>
+			<Cell><Data ss:Type="String">L'Academie</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerielacademie-ajaccio.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">97</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1366/design-by-jaler</Data></Cell>
+			<Cell><Data ss:Type="String">Design-By-Jaler</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.design-by-jaler.com</Data></Cell>
+			<Cell><Data ss:Type="Number">46</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1379/galerie-templon</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Templon</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">113</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1390/atelier-piece-unique</Data></Cell>
+			<Cell><Data ss:Type="String">Atelier Pièce Unique</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.atelier-piece-unique.com</Data></Cell>
+			<Cell><Data ss:Type="Number">122</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1410/galerie-alain-daudet</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Alain Daudet</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galeriealaindaudet.fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1416/art-symbiose</Data></Cell>
+			<Cell><Data ss:Type="String">Art Symbiose</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.artsymbiose.com</Data></Cell>
+			<Cell><Data ss:Type="Number">86</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1434/galerie-graal</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Graal</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">74</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1441/corps-et-ame-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">CORPS ET AME GALLERY</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.corpsetamegallery.com</Data></Cell>
+			<Cell><Data ss:Type="Number">39</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1482/day2day-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Day2Day Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://day2daygallery.fr</Data></Cell>
+			<Cell><Data ss:Type="Number">73</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1816/art-up-deco</Data></Cell>
+			<Cell><Data ss:Type="String">Art Up Déco</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/artupdeco/</Data></Cell>
+			<Cell><Data ss:Type="Number">62</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1852/street-art-power</Data></Cell>
+			<Cell><Data ss:Type="String">Street Art Power</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.streetartpower.com</Data></Cell>
+			<Cell><Data ss:Type="Number">48</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/1996/galerie-mona-lisart</Data></Cell>
+			<Cell><Data ss:Type="String">GALERIE MONA LIS'ART</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">33</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2005/galerie-art-pluriel-rive-droite</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Art Pluriel Rive Droite</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://art-pluriel.fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">56</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2122/art-bunker-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">ART BUNKER GALLERY</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.artbunker-gallery.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">106</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2350/galerie-d-art-urbain-par-superposition</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie d'art urbain par Superposition</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://superposition-lyon.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">65</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2518/au-voilier-bleu</Data></Cell>
+			<Cell><Data ss:Type="String">Au voilier Bleu</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">119</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2680/perrotin</Data></Cell>
+			<Cell><Data ss:Type="String">Perrotin</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">110</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2743/xippas</Data></Cell>
+			<Cell><Data ss:Type="String">Xippas</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.xippas.com/fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">105</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2758/galerie-omagh</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie OMAGH</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerieomagh.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">20</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2899/lorient-art-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Lorient Art Galerie</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.lorient-art-galerie.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">45</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/290/artop-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Artop Galerie</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.artop.com</Data></Cell>
+			<Cell><Data ss:Type="Number">55</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2944/street-ouacs-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Street Ouac's Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">99</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/2983/nami-pop-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Nami Pop Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://namipopgallery.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">47</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/300/galerie-artima</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Artima</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerie-artima.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">104</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/301/galerie-bayart</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie BAYART</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galeriebayart.net</Data></Cell>
+			<Cell><Data ss:Type="Number">90</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/3052/galerie-thomas-bernard</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Thomas Bernard</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galeriethomasbernard.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">118</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/312/galerie-loft</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie LOFT</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/galerie.loft/?ref=bookmarks</Data></Cell>
+			<Cell><Data ss:Type="Number">41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/3133/galerie-montmartre</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Montmartre</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/galeriemontmartre/</Data></Cell>
+			<Cell><Data ss:Type="Number">8</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/3235/galerie-martin-sauvage</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Martin Sauvage</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.galerie-martinsauvage.fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">93</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/3280/cohle-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">COHLE GALLERY</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.cohlegallery.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">34</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/3568/libre-est-lart</Data></Cell>
+			<Cell><Data ss:Type="String">Libre Est L'Art</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://facebook.com/galerielibreestlart/?ref=br_rs</Data></Cell>
+			<Cell><Data ss:Type="Number">81</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/373/galerie-bouillon-dart</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Bouillon d'Art</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.bouillondart.com</Data></Cell>
+			<Cell><Data ss:Type="Number">59</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/383/galerie-art-jingle</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Art Jingle</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.artjingle.com</Data></Cell>
+			<Cell><Data ss:Type="Number">23</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/389/galerie-brugier-rigail</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Brugier Rigail</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://galerie-brugier-rigail.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">19</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/405/galerie-claire-corcia</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Claire Corcia</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galeriecorcia.com</Data></Cell>
+			<Cell><Data ss:Type="Number">51</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/411/galerie-duret</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Duret</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">76</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/418/galerie-garnier-delaporte</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Garnier Delaporte</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerie.garnierdelaporte.com</Data></Cell>
+			<Cell><Data ss:Type="Number">121</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/4570/appartelier-fr</Data></Cell>
+			<Cell><Data ss:Type="String">Appartelier.fr</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.instagram.com/appartelier.fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">27</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/4582/galerie-marie-robin</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie marie-robin</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.marie-robin.com</Data></Cell>
+			<Cell><Data ss:Type="Number">87</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/4686/ellia-art-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Ellia art gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.instagram.com/paris75image/</Data></Cell>
+			<Cell><Data ss:Type="Number">7</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/483/danysz-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Danysz Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">101</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/5040/grappe-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Grappe Galerie</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://grappe-galerie.fr</Data></Cell>
+			<Cell><Data ss:Type="Number">89</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/513/galerie-jacob-paulett</Data></Cell>
+			<Cell><Data ss:Type="String">galerie jacob paulett</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://galeriejacobpaulett.com</Data></Cell>
+			<Cell><Data ss:Type="Number">88</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/5370/galerie-sophie-herrent</Data></Cell>
+			<Cell><Data ss:Type="String">galerie Sophie Herrent</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerie-art-grignan.com</Data></Cell>
+			<Cell><Data ss:Type="Number">63</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/539/litho-online-paris</Data></Cell>
+			<Cell><Data ss:Type="String">Litho.Online Paris</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://litho.online/fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">38</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/5418/metis</Data></Cell>
+			<Cell><Data ss:Type="String">Métis</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://instagram.com/metisbordeaux/</Data></Cell>
+			<Cell><Data ss:Type="Number">57</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/5466/la-manufacture</Data></Cell>
+			<Cell><Data ss:Type="String">La Manufacture</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.lamanufacture.com</Data></Cell>
+			<Cell><Data ss:Type="Number">21</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/550/a-leadouze-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">A. Leadouze Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.leadouzegallery.com</Data></Cell>
+			<Cell><Data ss:Type="Number">69</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/553/orlinda-lavergne-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Orlinda Lavergne Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.orlinda.gallery</Data></Cell>
+			<Cell><Data ss:Type="Number">68</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/5649/urban-art-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">URBAN ART GALERIE</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://urbanartgalerie.fr</Data></Cell>
+			<Cell><Data ss:Type="Number">18</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/5811/galerie-butterfly</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Butterfly</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://instagram.com/galeriebutterfly?igshid=fbwfwbq3he47</Data></Cell>
+			<Cell><Data ss:Type="Number">78</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/595/galerie-bettina-von-arnim</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Bettina Von Arnim</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://galeriebettina.com</Data></Cell>
+			<Cell><Data ss:Type="Number">77</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/599/galerie-gabel</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Gabel</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.galeriegabel.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">92</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/616/art-life-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">ART LIFE GALLERY</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.artlifegallery.fr</Data></Cell>
+			<Cell><Data ss:Type="Number">14</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/626/galerie-urbaine</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Urbaine</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://fr-fr.facebook.com/galerieurbaine/</Data></Cell>
+			<Cell><Data ss:Type="Number">35</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/639/xin-art-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Xin Art Galerie</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">22</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/6717/galerie-delahaye-giordani</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Delahaye & Giordani</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.dg-artcontemporain.fr</Data></Cell>
+			<Cell><Data ss:Type="Number">53</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/673/galerie-molin-corvo</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Molin Corvo</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.molin-corvo.com</Data></Cell>
+			<Cell><Data ss:Type="Number">117</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/6756/galerie-lagrange</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Lagrange</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.galerielagrange.fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/685/galerie-perahia</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie PERAHIA</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://galerieperahia.com</Data></Cell>
+			<Cell><Data ss:Type="Number">37</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/6921/talk-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Talk Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://talk-gallery.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">66</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/695/open-art-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">Open Art Galerie</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.open-art-galerie.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">82</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/6999/galerie-les-filles-rouges</Data></Cell>
+			<Cell><Data ss:Type="String">GALERIE LES FILLES ROUGES</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://galerielesfillesrouges.com</Data></Cell>
+			<Cell><Data ss:Type="Number">72</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/705/galry</Data></Cell>
+			<Cell><Data ss:Type="String">GALRY</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/7050/galerie-paris-beijing</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Paris-Beijing</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerieparisbeijing.com/fr/</Data></Cell>
+			<Cell><Data ss:Type="Number">115</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/7080/ln-design</Data></Cell>
+			<Cell><Data ss:Type="String">LN DESIGN</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://lndesign.fr</Data></Cell>
+			<Cell><Data ss:Type="Number">67</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/7110/be-crazy-art-store-black-event-sas</Data></Cell>
+			<Cell><Data ss:Type="String">Be Crazy Art Store / Black Event SAS</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/becrazy.art</Data></Cell>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/727/galerie-artset</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie ARTSET</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.galerieartset.fr</Data></Cell>
+			<Cell><Data ss:Type="Number">96</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/728/galerie-acabas</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie ACABAS</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://galerie.acabas.ch</Data></Cell>
+			<Cell><Data ss:Type="Number">61</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/7296/galerie-gamliel</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Gamliel</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.galerie-gamliel.com</Data></Cell>
+			<Cell><Data ss:Type="Number">100</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/734/galerie-jal</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Jal</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">120</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/7434/goldshteyn-saatort-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Goldshteyn Saatort Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.goldshteyn-saatort-gallery.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">32</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/7449/galerie-schanewald</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Schanewald</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.instagram.com/galerie_schanewald_/?hl=fr</Data></Cell>
+			<Cell><Data ss:Type="Number">80</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/745/hep-galerie</Data></Cell>
+			<Cell><Data ss:Type="String">HEP GALERIE</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">85</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/7470/galerie-fratello</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Fratello</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.galeriefratello.com</Data></Cell>
+			<Cell><Data ss:Type="Number">29</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/7836/outsiders-galerie-lyon</Data></Cell>
+			<Cell><Data ss:Type="String">Outsiders galerie Lyon</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">26</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/france/8070/galerie-le-cube-vernet</Data></Cell>
+			<Cell><Data ss:Type="String">Galerie Le Cube Vernet</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String">https://lecubevernet.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">91</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/israel/4710/pinkhas-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">PINKHAS Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Israel</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/pinkhas13/</Data></Cell>
+			<Cell><Data ss:Type="Number">24</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/italy/2509/mobe-art-gallery-art-collector</Data></Cell>
+			<Cell><Data ss:Type="String">MoBe Art Gallery Art Collector</Data></Cell>
+			<Cell><Data ss:Type="String">Italy</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.mobeartgallery.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/italy/3172/magma-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">MAGMA gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Italy</Data></Cell>
+			<Cell><Data ss:Type="String">http://magma.gallery/it/galleria-arte-bologna</Data></Cell>
+			<Cell><Data ss:Type="Number">102</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/luxembourg/5991/pop-my-duke</Data></Cell>
+			<Cell><Data ss:Type="String">Pop My Duke</Data></Cell>
+			<Cell><Data ss:Type="String">Luxembourg</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.popmyduke.lu</Data></Cell>
+			<Cell><Data ss:Type="Number">12</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/morocco/6189/casart-urban-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">CASART URBAN GALLERY</Data></Cell>
+			<Cell><Data ss:Type="String">Morocco</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/casart.urbangallery/</Data></Cell>
+			<Cell><Data ss:Type="Number">112</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/south-korea/2002/art-works-paris-seoul</Data></Cell>
+			<Cell><Data ss:Type="String">Art Works Paris Seoul</Data></Cell>
+			<Cell><Data ss:Type="String">South Korea</Data></Cell>
+			<Cell><Data ss:Type="String">http://awpsgallery.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">54</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/spain/1633/buysculpture</Data></Cell>
+			<Cell><Data ss:Type="String">Buysculpture</Data></Cell>
+			<Cell><Data ss:Type="String">Spain</Data></Cell>
+			<Cell><Data ss:Type="String">https://buysculpture.com</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/spain/7440/galeria-azur-madrid</Data></Cell>
+			<Cell><Data ss:Type="String">GALERIA AZUR MADRID</Data></Cell>
+			<Cell><Data ss:Type="String">Spain</Data></Cell>
+			<Cell><Data ss:Type="String">http://galeriaazur.es</Data></Cell>
+			<Cell><Data ss:Type="Number">84</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/sweden/922/galleri-gkm</Data></Cell>
+			<Cell><Data ss:Type="String">Galleri GKM</Data></Cell>
+			<Cell><Data ss:Type="String">Sweden</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.gkm.se</Data></Cell>
+			<Cell><Data ss:Type="Number">52</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/switzerland/6864/tgp-auction</Data></Cell>
+			<Cell><Data ss:Type="String">TGP Auction</Data></Cell>
+			<Cell><Data ss:Type="String">Switzerland</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.tgpauction.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">60</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/switzerland/7872/kirsten-keagli</Data></Cell>
+			<Cell><Data ss:Type="String">Kirsten Keagli</Data></Cell>
+			<Cell><Data ss:Type="String">Switzerland</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.kirsten-keagli-consulting.com</Data></Cell>
+			<Cell><Data ss:Type="Number">83</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-kingdom/1546/degreeart-com</Data></Cell>
+			<Cell><Data ss:Type="String">DegreeArt.com</Data></Cell>
+			<Cell><Data ss:Type="String">United Kingdom</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.degreeart.com</Data></Cell>
+			<Cell><Data ss:Type="Number">109</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-kingdom/3598/kumi-contemporary</Data></Cell>
+			<Cell><Data ss:Type="String">KUMI Contemporary</Data></Cell>
+			<Cell><Data ss:Type="String">United Kingdom</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.kumicontemporary.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-kingdom/570/french-art-studio</Data></Cell>
+			<Cell><Data ss:Type="String">French Art Studio</Data></Cell>
+			<Cell><Data ss:Type="String">United Kingdom</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">111</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-kingdom/6036/prazowski-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">PRAZOWSKI GALLERY</Data></Cell>
+			<Cell><Data ss:Type="String">United Kingdom</Data></Cell>
+			<Cell><Data ss:Type="String">http://www.prazowskigallery.com</Data></Cell>
+			<Cell><Data ss:Type="Number">95</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-states/1290/rogallery</Data></Cell>
+			<Cell><Data ss:Type="String">RoGallery</Data></Cell>
+			<Cell><Data ss:Type="String">United States</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.rogallery.com</Data></Cell>
+			<Cell><Data ss:Type="Number">116</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-states/1328/dirty-pilot-hobbs-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Dirty Pilot/Hobbs Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">United States</Data></Cell>
+			<Cell><Data ss:Type="String">http://dirtypilot.com</Data></Cell>
+			<Cell><Data ss:Type="Number">28</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-states/2776/fabien-castanier-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Fabien Castanier Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">United States</Data></Cell>
+			<Cell><Data ss:Type="String">https://www.facebook.com/fabiencastaniergallery/</Data></Cell>
+			<Cell><Data ss:Type="Number">50</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-states/2791/boccara-art-galleries-boccara-fine-art</Data></Cell>
+			<Cell><Data ss:Type="String">BOCCARA ART Galleries | BOCCARA FINE ART</Data></Cell>
+			<Cell><Data ss:Type="String">United States</Data></Cell>
+			<Cell><Data ss:Type="String">https://boccara-art.com</Data></Cell>
+			<Cell><Data ss:Type="Number">107</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">https://www.artsper.com/us/art-galleries/united-states/5667/end-to-end-gallery</Data></Cell>
+			<Cell><Data ss:Type="String">End To End Gallery</Data></Cell>
+			<Cell><Data ss:Type="String">United States</Data></Cell>
+			<Cell><Data ss:Type="String">https://endtoendgallery.com/</Data></Cell>
+			<Cell><Data ss:Type="Number">40</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Professional art gallery</Data></Cell>
+			<Cell><Data ss:Type="String">Professional art gallery</Data></Cell>
+			<Cell><Data ss:Type="String">France</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="Number">11</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
