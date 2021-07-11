@@ -1,5 +1,5 @@
 import concurrent.futures
-# import re
+from bs4 import BeautifulSoup
 import time
 
 # Importing data structures
@@ -103,31 +103,49 @@ class Singulart:
                 pass
 
     def get_artist_data(self, soup, url):
-        # Called by self.get_artwork_listings_slave()
-        # Pick name, born, country, about
-
-        # Name : Pick artist's name here
-        print(name)
-        # If an error occurs here, its because the page layout has changed and thus the code needs to be fixed
+        # name, born, country, about
+        # pack = [name, born, country, about]
+        # no need to run the safety try: except: here because we're not fetching the page here.
+        try:
+            name = soup.find('div', class_='artist-intro').find('h1').text
+            name = str(name).strip()
+        except AttributeError:
+            name = None
 
         if name is not None:
             try:
-                # Pick artist's country here.
-                print(country)
+                born = soup.find('p', class_='born').text.strip()
+                t = ""
+                for b in born:
+                    if str(b).isdigit():
+                        t += b
+                born = int(t)
+
+                if born > 3000:
+                    born = str(born)[0:3]
+
+            except AttributeError:
+                born = None
+            except ValueError:
+                born = None
+
+            # Country
+            try:
+                country = soup.find('div', class_="artist-intro")
+                country = country.find('div', class_='h2').text.strip().split("|")
+                country = str(country[-1]).strip()
             except AttributeError:
                 country = None
 
+            # About
             try:
-                # Pick birth year here here.
-                print(born)
-            except AttributeError:
-                born = None
-
-            try:
-                # Pick artist's description here.
-                print(about)
+                about = soup.find('section', class_='artist-bio')
+                about = about.find('div', class_='resume').text.strip()
             except AttributeError:
                 about = None
+
+            # pack = [name, born, country, about]
+            # print(pack)
 
             artist_data_pack = [name, born, country, about]
             # pack = [name, born, country, about]
@@ -145,10 +163,9 @@ class Singulart:
         # Artist's info and artwork listings are available on the same page.
         if soup is not None:
             try:
+                name = soup.find('div', class_='artist-intro').find('div', class_='content').h1.text
+                # Name will cause the crash if the page is not returned
                 block = soup.find_all('div', class_='artist-container artist-container--details')
-                if len(block) == 0:
-                    # Crash agent causes Attribute error.
-                    crash_agent = block.find_all('a')
                 print(f"BLOCK : {len(block)}")
                 try:
                     for chunk in block:
@@ -170,7 +187,7 @@ class Singulart:
                     # print("A")
                     pass
 
-                # self_get_artist_data()
+                self.get_artist_data(soup, url)
 
             except AttributeError:
                 print("B")
@@ -301,7 +318,7 @@ class Singulart:
 
     # Does major mining operations.
     def get_artwork_data_slave(self, url):
-        soup = TheMiner.fetch_page(url)
+        soup = TheMiner.fetch_page(url, ghost=True)
         if soup is not None:
 
             # Field initiation ::
@@ -394,10 +411,27 @@ class Singulart:
                 print(f"Skipping : {url}\nSeller_id = {seller_id}, Artist_id = {artist_id}, medium = {medium}")
 
     def get_artwork_data_master(self):
+        self.listy.clear()
+        # Clearing listy for use later.
         with concurrent.futures.ThreadPoolExecutor() as executor:
             results = executor.map(self.get_artwork_data_slave, self.artwork_listings)
         for result in results:
             pass
+
+        # As long as there is any element in listy. We keep calling the slave. If listy > 20 we thread.
+        # if listy < 20, we process it linearly
+        while len(self.listy) > 0:
+            if len(self.listy) > 20:
+                with concurrent.futures.ThreadPoolExecutor() as executor:
+                    results = executor.map(self.get_artwork_data_slave, self.listy)
+                self.listy.clear()
+                for r in results:
+                    pass
+            else:
+                results = map(self.get_artwork_listings_slave, self.listy)
+                self.listy.clear()
+                for r in results:
+                    pass
 
     def miner(self):
         self.get_artist_listings()
